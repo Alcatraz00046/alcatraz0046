@@ -1,0 +1,18 @@
+Maraş'ın Trafiği — third-party material
+
+Map data
+- Roads: © OpenStreetMap contributors, Open Database License (ODbL) 1.0 — https://www.openstreetmap.org/copyright (fetched via Overpass API, 2026-11-27; database extract in raw/osm.json and assets/roads.json is ODbL)
+- Imagery: Sentinel-2 cloudless 2016 by EOX IT Services GmbH (contains modified Copernicus Sentinel data 2016), CC BY 4.0 — https://s2maps.eu
+- Elevation: AWS Terrain Tiles (Mapzen/Tilezen terrarium; SRTM, GMTED and other public sources), free with attribution — https://registry.opendata.aws/terrain-tiles/
+- Vertical exaggeration ×1.5, stated on screen.
+
+Fonts
+- Barlow Condensed — SIL Open Font License 1.1 (fonts/OFL-barlowcondensed.txt)
+
+Voice
+- Narration synthesized with Microsoft Edge neural TTS (tr-TR-AhmetNeural) through edge-tts (LGPL-3.0). Check the voice service's terms for commercial use.
+
+Music samples
+- VS Chamber Orchestra: Community Edition and Versilian Community Sample Library (Versilian Studios), CC0.
+
+Sound effects, ambience: synthesized in code. Facts and their sources: FACTS.md.
