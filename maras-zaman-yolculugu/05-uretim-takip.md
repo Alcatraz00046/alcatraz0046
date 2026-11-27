@@ -8,21 +8,18 @@ Durum: `bekliyor` · `üretildi` · `kabul` · `ret`
 
 | Klip | Deneme | Tarih | Değişen şey | Sorun (yüz kayması / el / yazı / kalabalık / ışık / diğer) | Durum | Dosya |
 |---|---|---|---|---|---|---|
-| 1-01 | 1 | 2026-11-27 | Flow (Veo): 2a başlangıç karesi + 2b Frames to Video, Türkçe konuşma | Cadde Trabzon Caddesi'ne benzemiyor (genel modern cadde); karakter, kıyafet, selfie çubuğu tutarlı; beyaz kareyle bitiyor | kabul (aday) | 1-01_deneme1.mp4 |
-| 1-02 | 1 | | — | | bekliyor | |
-| 1-03 | 1 | | — | | bekliyor | |
-| 1-04 | 1 | | — | | bekliyor | |
-| 1-05 | 1 | | — | | bekliyor | |
-| 1-06 | 1 | | — | | bekliyor | |
-| 1-07 | 1 | | — | | bekliyor | |
-| 1-08 | 1 | | — | | bekliyor | |
-| 2-01 | 1 | | — | | bekliyor | |
-| 2-02 | 1 | | — | | bekliyor | |
-| 2-03 | 1 | | — | | bekliyor | |
-| 2-04 | 1 | | — | | bekliyor | |
-| 2-05 | 1 | | — | | bekliyor | |
-| 2-06 | 1 | | — | | bekliyor | |
-| 2-07 | 1 | | — | | bekliyor | |
+| 1 | 1 | | — | | bekliyor | |
+| 2 | 1 | | — | | bekliyor | |
+| 3 | 1 | | — | | bekliyor | |
+| 4 | 1 | | — | | bekliyor | |
+| 5 | 1 | | — | | bekliyor | |
+| 6 | 1 | | — | | bekliyor | |
+| 7 | 1 | | — | | bekliyor | |
+| 8 | 1 | | — | | bekliyor | |
+
+Bölüm: `04-sahne-listesi/bolum-01-2005-trabzon-caddesi.md`
+
+Arşiv (eski 1996 planı): 1-01 deneme 1, 2026-11-27, Flow — karakter tutarlı, beyaz kareyle bitiyor, cadde Trabzon Caddesi'ne benzemedi, replik "doksanlara" dediği için yeni planda yeniden üretilecek.
 
 ## Sık sorunlar → tek değişiklik
 | Sorun | Önce şunu dene |
@@ -32,4 +29,5 @@ Durum: `bekliyor` · `üretildi` · `kabul` · `ret`
 | Fotoğraftaki kişinin yüzü geliyor | Fotoğrafı kırp (insanları çıkar) veya `do not copy any face` cümlesini başa al |
 | Bozuk yazı/tabela | Prompt'tan yazıyla ilgili kelimeleri sil; tabelayı fotoğraf taşısın |
 | Modern obje sızıyor | `no smartphones, no LED signs, no modern cars` ekle |
-| Klip reddedildi (moderasyon) | Yakın plan yüz içeren referansı çıkar; `seedance-20` moderasyon ön kontrolünü çalıştır |
+| Klip reddedildi | Yakın plan yüz içeren referansı kırp; kalabalığı azalt |
+| Türkçe telaffuz kötü | Konuşma cümlesini sil, `He smiles at the camera without speaking` yaz; sesi kurguda ekle |

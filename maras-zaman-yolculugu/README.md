@@ -1,6 +1,8 @@
-# Maraş Zaman Yolculuğu — Topview + Seedance 2.0 paketi
+# Maraş Zaman Yolculuğu — Google Flow (Veo 3.1) paketi
 
-Seyahat vlogu tarzında, bir karakterin geçmişteki bir güne (ör. **1996 karlı bir ocak sabahı**, **2005 karlı bir şubat akşamı**) gidip Kahramanmaraş'ı gezdiği video serisi.
+Seyahat vlogu tarzında, Yolcu'nun bugünkü karlı Maraş'tan **2005'te karlı bir akşam, Trabzon Caddesi**'ne gidip gezdiği video serisi.
+
+**Aktif bölüm:** `04-sahne-listesi/bolum-01-2005-trabzon-caddesi.md` (eski Seedance/1996 planı `04-sahne-listesi/arsiv/`).
 
 ## Klasörler
 | Klasör | İçerik |
@@ -13,22 +15,21 @@ Seyahat vlogu tarzında, bir karakterin geçmişteki bir güne (ör. **1996 karl
 
 Proje skill'i: `.claude/skills/maras-zaman-yolculugu/` (Claude Code'da `/maras-zaman-yolculugu`). Prompt kuralları `seedance-20` skill'inden gelir.
 
-## İş akışı (5 adım)
-1. **Karakteri kilitle** → `01-karakter/karakter-karti.md` doldur, `karakter-sayfasi-prompt.md` ile görsel üret (Topview görsel aracı veya başka bir görsel modeli), en iyisini `02-referanslar/karakter/karakter-sayfasi.jpg` olarak kaydet.
-2. **Referansları topla** → dönem klasörlerine fotoğrafları koy, `02-referanslar/README.md`'deki isim düzenine uy.
-3. **Klibi seç** → `04-sahne-listesi/` içinden klip; yükleme sırasını birebir uygula (`@Image1` = karakter sayfası, sonra mekân fotoğrafları).
-4. **Topview'de üret** → Seedance 2.0, reference/omni modu, süre ve oran klip kartındaki gibi. Prompt'u kopyala-yapıştır.
-5. **Kaydet ve zincirle** → beğenilen klibin son karesini `extend`/devam klibi için kullan; `05-uretim-takip.md`'ye yaz. Türkçe dış ses, müzik ve yazılar kurguda (CapCut vb.) eklenir.
+## İş akışı (Flow)
+1. **Karakter** hazır: `02-referanslar/karakter/karakter-sayfasi.jpg`.
+2. **Referans:** 2000'ler Trabzon Caddesi fotoğraflarını `02-referanslar/2000ler-kar/` içine koy.
+3. **Her klip iki adım:** A) Flow'da görsel üret (karakter sayfası + referans foto, kare prompt'u, 9:16) → B) Frames to Video (A'daki kare başlangıç; geçişlerde ilk/son kare), video prompt'u, 8 sn.
+4. **Kaydet:** `05-uretim-takip.md`. Ekran yazıları ve müzik kurguda (CapCut vb.).
 
 ## Tutarlılık için 6 kural
-1. `@Image1` **her klipte** karakter sayfası. Sıra asla değişmez.
+1. Karakter sayfası **her kare üretiminde** yüklenir.
 2. Karakterin **imza kıyafeti** hiç değişmez (bütün dönemlerde aynı — zaman yolcusu olduğu böyle anlaşılır).
 3. Gerçek fotoğraflar **sadece mekân/doku** taşır; prompt bunu açıkça söyler.
-4. 15 sn'de en fazla 3 çekim; her çekim kilit satırıyla biter.
+4. Klip başına tek çekim, tek ana hareket (8 sn).
 5. Kalabalık sahnede karakter tek "eylem yapan" kişidir; diğerleri arka planda küçük hareket.
 6. Beğenilmeyen klipte tüm prompt'u değiştirme; tek bir şeyi değiştir, takip dosyasına yaz.
 
 ## Dikkat
-- Seedance gerçekçi, tanınabilir yüz içeren referansları reddedebilir. Karakter sayfası özgün/üretilmiş bir karakter olsun; kendi yüzünü kullanacaksan önce kısa bir test yap.
+- Veo Türkçe konuşabiliyor ama telaffuz/dudak senkronu her denemede iyi olmayabilir; kötüyse sessiz üretip sesi kurguda ekle.
 - Fotoğraf hakları: kendi/aile arşivin veya izinli arşiv fotoğrafı kullan.
-- Seedance sınırları (Eylül 2026 itibarıyla yaygın bildirilen): üretim başına ≤9 görsel, 4–15 sn. Topview'deki güncel sınırı ekrandan kontrol et.
+- Flow çıktıları SynthID filigranı taşır; yayında yapay zekâ ile üretildiğini belirt.

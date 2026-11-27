@@ -8,5 +8,5 @@ Topview + Seedance 2.0 ile "zaman yolculuğu" seyahat vlogu (ör. 90'lar karlı 
   Claude Code'da `/seedance-20` ile çağrılır. Prompt hazırlar; video üretimi ve maliyeti Topview/Seedance tarafındadır.
 
 ## Maraş zaman yolculuğu paketi
-- `maras-zaman-yolculugu/` — karakter kartı, karakter sayfası prompt'u, referans klasörleri, dönem kitapçıkları (90'lar kar, 2000'ler kar), Bölüm 1 (1996) ve Bölüm 2 (2005) sahne listeleri, üretim takibi. Başlangıç: `maras-zaman-yolculugu/README.md`.
-- `.claude/skills/maras-zaman-yolculugu/` — proje skill'i (`/maras-zaman-yolculugu`): yeni klip/bölüm prompt'larını bu paket ve `seedance-20` kurallarıyla yazar.
+- `maras-zaman-yolculugu/` — Google Flow (Veo) için: karakter kartı ve sayfası, referanslar, 2000ler dönem kitapçığı, **Bölüm 1: 2005 karlı akşam, Trabzon Caddesi** (8 klip, kare + video prompt), üretim takibi. Başlangıç: `maras-zaman-yolculugu/README.md`.
+- `.claude/skills/maras-zaman-yolculugu/` — proje skill'i (`/maras-zaman-yolculugu`): Flow kare + video prompt'larını yazar, gelen klipleri kontrol eder.

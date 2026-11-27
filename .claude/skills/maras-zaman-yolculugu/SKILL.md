@@ -1,53 +1,28 @@
 ---
 name: maras-zaman-yolculugu
-description: "Kahramanmaraş zaman yolculuğu vlog serisi (90'lar karlı gün, 2000'ler karlı gün vb.) için Topview + Seedance 2.0 prompt'u, karakter kartı, referans rol haritası ve sahne listesi üretir. Kullanıcı Maraş/zaman yolculuğu/dönem vlogu/yeni bölüm/yeni sahne/prompt istediğinde veya referans fotoğraf yüklediğinde kullan."
+description: "Kahramanmaraş zaman yolculuğu vlog serisi (aktif: 2005 karlı akşam, Trabzon Caddesi) için Google Flow (Veo 3.1) kare + video prompt'ları, karakter tutarlılığı ve sahne listesi üretir. Kullanıcı Maraş/zaman yolculuğu/yeni klip/yeni bölüm/prompt istediğinde, referans fotoğraf veya üretilmiş klip gönderdiğinde kullan."
 user-invocable: true
-tags: [seedance, topview, maras, time-travel, vlog]
+tags: [flow, veo, maras, time-travel, vlog]
 ---
 
 # maras-zaman-yolculugu
 
-Bu skill, `maras-zaman-yolculugu/` klasöründeki proje paketini yönetir ve prompt yazımını `seedance-20` skill'ine dayandırır.
+Üretim aracı **Google Flow (Veo 3.1)**. Paket: `maras-zaman-yolculugu/`.
 
 ## Önce oku
-1. `maras-zaman-yolculugu/README.md` — iş akışı.
-2. `maras-zaman-yolculugu/01-karakter/karakter-karti.md` — **Karakter A** kimlik kilidi. Boş alan varsa önce onu kullanıcıyla doldur; karakter kilitlenmeden sahne prompt'u yazma.
-3. İlgili dönem dosyası: `03-donemler/*.md`.
-4. İlgili bölüm: `04-sahne-listesi/*.md` ve `05-uretim-takip.md`.
+1. `maras-zaman-yolculugu/01-karakter/karakter-karti.md` — Yolcu (değişmez).
+2. `maras-zaman-yolculugu/04-sahne-listesi/bolum-01-2005-trabzon-caddesi.md` — aktif bölüm, ortak bloklar.
+3. `maras-zaman-yolculugu/03-donemler/2000ler-kar.md` ve `05-uretim-takip.md`.
+`04-sahne-listesi/arsiv/` eski Seedance/1996 planıdır; kullanıcı istemedikçe kullanma.
 
-Prompt kuralları için `seedance-20` alt kaynaklarını kullan:
-- Kimlik/tutarlılık: `.claude/skills/seedance-20/skills/seedance-characters/SKILL.md`
-- Referans etiketleri: `.claude/skills/seedance-20/references/reference-workflow.md`
-- Çok çekim: `.claude/skills/seedance-20/references/multishot-grammar.md`
-- Geçiş klibi: `.claude/skills/seedance-20/references/first-last-frame-guide.md`
-- Devam klibi: `.claude/skills/seedance-20/skills/seedance-continuation/SKILL.md`
-- Moderasyon ön kontrolü: `.claude/skills/seedance-20/references/moderation-prescreen.md`
+## Flow kuralları
+- Etiket yok (`@Image1` yazma). Görseller yüklenir; prompt "the man from the character sheet", "the street photo" diye anar.
+- Her klip iki adım: **A** kare (görsel üret: karakter sayfası + referans foto, 9:16) → **B** Frames to Video (8 sn, 9:16). Geçiş kliplerinde ilk kare = `02-referanslar/gecis-beyaz-kare.png`.
+- Klip başına tek çekim, tek ana hareket, en fazla bir kısa Türkçe cümle (sayıları yazıyla: "iki bin beş").
+- Video prompt'u her zaman şunu içerir: `Keep his face, beard, jacket, beanie and selfie stick exactly the same throughout.` ve `No subtitles, no on-screen text, no logos.`
+- 2005 dönemi: akıllı telefon, düz ekran TV, LED ekran, modern araç yok. Okunur yazı/plaka/logo isteme.
+- Gerçek fotoğraflardaki insanların yüzleri karaktere taşınmaz; yalnızca mekân ve dönem.
+- Kullanıcı klip gönderirse: ffmpeg ile saniyede bir kare çıkarıp kontrol et (yüz, kıyafet, mekân, dönem hatası, geçiş), sesi dinleyemediğini söyle, `05-uretim-takip.md`'ye yaz.
 
-## Sabit kurallar
-- **Kimlik tek kaynaktan gelir:** `@Image1` her zaman karakter sayfasıdır. Dönem fotoğrafları yalnızca mekân, doku, ışık, araç, tabela ve kıyafet dönemi taşır; içlerindeki gerçek kişilerin yüzleri **transfer edilmez** — bunu prompt'a açıkça yaz.
-- **Etiketler:** `@Image1`…`@Image9`, `@Video1`… harfiyen; köşeli parantez yok. Her etiketin yanında görevi yazılır.
-- **Prompt dili İngilizce**, kullanıcıya açıklama Türkçe. Türkçe konuşma/dış ses kurguda eklenir (Seedance Türkçe dudak senkronu doğrulanmadı); klipte karakter konuşacaksa kısa, kameraya bakan, kilitli kamera.
-- **15 sn'de en fazla 3 çekim**; çekimler `Shot 1/2/3` ile, saniye yazmadan. Çekim başına tek kamera hareketi.
-- **Her çekim bir kilit satırıyla biter:** `Lock: Character A from @Image1 — <imza kıyafet>; <dönem + kar + ışık>; <konum ve bakış yönü>; camera <taraf>.`
-- **Kapanış kısıtı:** `No subtitles, no on-screen text, no logos, no watermark. Do not copy faces of people from @Image2–@ImageN.`
-- **Marka adı yazma:** "Tofaş Şahin" yerine "a boxy 1990s Turkish sedan" gibi genel tarif; gerçek tabela yazıları referans fotoğraftan gelsin.
-- Para/hesap/üretim başlatma yok: sadece prompt ve paket üretilir; üretimi kullanıcı Topview'de yapar.
-
-## Çıktı formatı (her klip için)
-```
-### Klip <bölüm>-<no> · <başlık>
-Mod: Reference-to-video | First/Last frame | Extend
-Süre: <4–15> sn · Oran: 9:16 (varsayılan) · Çekim sayısı: <1–3>
-Yükleme sırası:
-  @Image1 = 02-referanslar/karakter/karakter-sayfasi.jpg  (kimlik)
-  @Image2 = 02-referanslar/...                (mekân)
-  ...
-Prompt:
-  <İngilizce prompt>
-Kurguda eklenecek: <Türkçe dış ses / müzik / ses efekti>
-Risk: <moderasyon, kalabalık, el, yazı vb.>
-```
-Sonra `05-uretim-takip.md` tablosuna satır ekle.
-
-## Yeni dönem/bölüm eklerken
-`03-donemler/_sablon.md` ve `04-sahne-listesi/_sablon.md` kopyalanır. Dönem dosyasına sadece kullanıcının fotoğraflarında görülen veya kesin bilinen dönem detaylarını yaz; emin olmadığın yerel detayı "kontrol et" diye işaretle.
+## Çıktı
+Kullanıcıya her seferinde **bir klip**: yüklenecekler, A prompt'u, B prompt'u, kontrol listesi. Kısa ve Türkçe açıklama, prompt'lar İngilizce (konuşma Türkçe).
