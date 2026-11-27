@@ -15,7 +15,9 @@ Kare önce kontrol edilir; video kredisi ancak kare doğruysa harcanır.
 - **2005 dönemi:** *mid-2000s Turkey: early-2000s compact sedans and hatchbacks, white minibuses, yellow taxis, bright backlit shop signs, bulky CRT TVs in shop windows, people in puffer jackets, leather jackets and bootcut jeans; no smartphones, no flat-screen TVs, no LED screens, no modern cars*
 - **2005 görüntü dokusu:** *looks like mid-2000s compact digital camera video: slightly oversaturated colours, mild compression softness, small noise in the shadows*
 
-⚠ **Trabzon Caddesi 2005:** Bugün yaya caddesi; 2005'teki hâlini (araç trafiği, kaldırım, tabelalar) senin 2000'ler fotoğrafın belirlesin. Fotoğraf gelene kadar prompt'lar "busy main shopping street" diye genel tarif ediyor.
+**Trabzon Caddesi referansı:** Kullanıcı gerçek fotoğrafı doğrudan Flow'a yüklüyor. Klip 2–8 kare prompt'ları caddeyi tarif etmez; "fotoğraftaki gibi koru, modernleştirme, kar yoksa ekle" der. Böylece cadde fotoğraf neyse o olur.
+
+**Karakter referansı:** Ayrı prompt gerekmez; onaylı karakter sayfası (`02-referanslar/karakter/karakter-sayfasi.jpg`) her A adımında yüklenir. Flow'da bu görseli kaydedip (ingredient/koleksiyon) her seferinde oradan seçmek en pratiği.
 
 ## Klipler
 | # | Başlık | Referans | Konuşma |
@@ -56,15 +58,14 @@ Not: Önceki denemedeki başlangıç karesini (`1-01_deneme1`) yeniden kullanabi
 ---
 
 ### Klip 2 · Beyazdan 2005'e
-**Yükle (A):** karakter sayfası + 2000'ler Trabzon Caddesi fotoğrafı (yoksa `2000ler-kar/01-cadde-dolmuslar-karli.jpg`)
+**Yükle (A):** karakter sayfası + Trabzon Caddesi referans fotoğrafı
 
 **A — Son kare**
 ```
 Use the man from the character sheet exactly as he is: same face, short dark-brown wavy hair, short trimmed beard, mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black extended selfie stick with a small action camera at its tip.
-Place him on the pavement of the busy main shopping street from the street photo, on a snowy winter evening in the mid-2000s: four- to six-storey concrete buildings with shops on the ground floor, bright backlit shop signs, orange street lamps just turning on, early-2000s compact cars, white minibuses and a yellow taxi moving through slush, people in puffer jackets and leather jackets on the pavements. No air-conditioning units on the facades, no smartphones, no LED screens, no modern cars.
-Medium shot from the front: he looks around in amazement, eyebrows raised, breath fogging in the cold air. Blue-hour light, steady snowfall.
-Looks like a frame from a mid-2000s compact digital camera: slightly oversaturated colours, mild softness.
-No readable text, no licence plates, no logos, no watermark.
+Location: Trabzon Caddesi from the street photo, in the mid-2000s. Keep the street exactly as it appears in the photo: the same buildings and facades, shop fronts, pavement, street layout, trees, lamp posts and the style of the vehicles and people. Do not modernise anything. If the photo has no snow, add it: snow on rooftops, ledges and parked cars, packed snow and slush on the pavement and road, steady snowfall. Do not copy the faces of people in the photo; keep any locals small and in the background.
+Medium shot from the front: he stands on the pavement and looks around in amazement, eyebrows raised, breath fogging in the cold air. Blue-hour evening light, orange street lamps just turning on, shop signs glowing.
+No smartphones, no flat-screen TVs, no LED screens, no modern cars. Looks like a frame from a mid-2000s compact digital camera: slightly oversaturated colours, mild softness. No readable text, no licence plates, no logos, no watermark.
 ```
 **B — Video** (ilk kare = `02-referanslar/gecis-beyaz-kare.png`, son kare = A)
 ```
@@ -78,13 +79,14 @@ Kurguda: **"KAHRAMANMARAŞ · ŞUBAT 2005 · TRABZON CADDESİ"**
 ---
 
 ### Klip 3 · Caddede ilk adımlar
-**Yükle (A):** karakter sayfası + 2000'ler cadde fotoğrafı
+**Yükle (A):** karakter sayfası + Trabzon Caddesi referans fotoğrafı
 
 **A — Kare**
 ```
-Use the man from the character sheet exactly as he is (same face, beard, mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black extended selfie stick with action camera).
-Selfie view from the action camera at the end of the selfie stick: he walks along the snowy pavement of the busy mid-2000s Kahramanmaraş shopping street from the street photo, grinning at the camera and pointing over his shoulder. Behind him: backlit shop signs, a white minibus and early-2000s compact cars in the slush, people in puffer jackets. Blue-hour light, orange street lamps, steady snowfall. No smartphones, no LED screens, no modern cars.
-Looks like a frame from a mid-2000s compact digital camera. No readable text, no licence plates, no logos, no watermark.
+Use the man from the character sheet exactly as he is: same face, short dark-brown wavy hair, short trimmed beard, mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black extended selfie stick with a small action camera at its tip.
+Location: Trabzon Caddesi from the street photo, in the mid-2000s. Keep the street exactly as it appears in the photo: the same buildings and facades, shop fronts, pavement, street layout, trees, lamp posts and the style of the vehicles and people. Do not modernise anything. If the photo has no snow, add it: snow on rooftops, ledges and parked cars, packed snow and slush on the pavement and road, steady snowfall. Do not copy the faces of people in the photo; keep any locals small and in the background.
+Selfie view from the action camera at the end of the selfie stick: he walks along the snowy pavement grinning at the camera and pointing over his shoulder at the street behind him. Blue-hour evening light, orange street lamps, glowing shop windows.
+No smartphones, no flat-screen TVs, no LED screens, no modern cars. Looks like a frame from a mid-2000s compact digital camera: slightly oversaturated colours, mild softness. No readable text, no licence plates, no logos, no watermark.
 ```
 **B — Video**
 ```
@@ -98,11 +100,14 @@ No subtitles, no on-screen text, no logos.
 ---
 
 ### Klip 4 · Vitrinde maç
+**Yükle (A):** karakter sayfası + Trabzon Caddesi referans fotoğrafı
+
 **A — Kare**
 ```
-Use the man from the character sheet exactly as he is (same face, beard, mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black extended selfie stick with action camera).
-Snowy mid-2000s evening on the Kahramanmaraş shopping street from the street photo: an electronics shop window full of bulky CRT televisions all showing the same football match; a small group of men in jackets stands in the falling snow watching. He stands at the right edge of the group, facing the window, lit by the flickering screens.
-Medium-wide shot from beside the window. Looks like a mid-2000s compact digital camera frame. No readable text, no logos, no watermark.
+Use the man from the character sheet exactly as he is: same face, short dark-brown wavy hair, short trimmed beard, mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black extended selfie stick with a small action camera at its tip.
+Location: Trabzon Caddesi from the street photo, in the mid-2000s. Keep the street exactly as it appears in the photo: the same buildings and facades, shop fronts, pavement, street layout, trees, lamp posts and the style of the vehicles and people. Do not modernise anything. If the photo has no snow, add it: snow on rooftops, ledges and parked cars, packed snow and slush on the pavement and road, steady snowfall. Do not copy the faces of people in the photo; keep any locals small and in the background.
+An electronics shop window on this street, full of bulky CRT televisions all showing the same football match; a small group of men in jackets stands in the falling snow watching. He stands at the right edge of the group, facing the window, lit by the flickering screens. Medium-wide shot from beside the window, the street visible behind them. Evening light.
+No smartphones, no flat-screen TVs, no LED screens, no modern cars. Looks like a frame from a mid-2000s compact digital camera: slightly oversaturated colours, mild softness. No readable text, no licence plates, no logos, no watermark.
 ```
 **B — Video**
 ```
@@ -115,11 +120,14 @@ No subtitles, no on-screen text, no logos.
 ---
 
 ### Klip 5 · İnternet kafe
+**Yükle (A):** karakter sayfası + Trabzon Caddesi referans fotoğrafı
+
 **A — Kare**
 ```
-Use the man from the character sheet exactly as he is (same face, beard, mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black extended selfie stick with action camera).
-View from inside a mid-2000s internet café on the Kahramanmaraş shopping street, looking out through a steamed-up window: rows of beige CRT monitors and teenagers in headphones in the foreground. Outside in the snowy blue evening, he has wiped a circle in the fog on the glass and peers in, laughing.
-Fluorescent light inside, orange street lamps outside. Looks like a mid-2000s compact digital camera frame. No readable text, no logos, no watermark.
+Use the man from the character sheet exactly as he is: same face, short dark-brown wavy hair, short trimmed beard, mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black extended selfie stick with a small action camera at its tip.
+Location: Trabzon Caddesi from the street photo, in the mid-2000s. Keep the street exactly as it appears in the photo: the same buildings and facades, shop fronts, pavement, street layout, trees, lamp posts and the style of the vehicles and people. Do not modernise anything. If the photo has no snow, add it: snow on rooftops, ledges and parked cars, packed snow and slush on the pavement and road, steady snowfall. Do not copy the faces of people in the photo; keep any locals small and in the background.
+View from inside a mid-2000s internet café on this street, looking out through a steamed-up window: rows of beige CRT monitors and teenagers in headphones in the foreground. Outside on the snowy pavement, with the street's buildings behind him, he has wiped a circle in the fog on the glass and peers in, laughing. Fluorescent light inside, blue evening outside.
+No smartphones, no flat-screen TVs, no LED screens, no modern cars. Looks like a frame from a mid-2000s compact digital camera: slightly oversaturated colours, mild softness. No readable text, no licence plates, no logos, no watermark.
 ```
 **B — Video**
 ```
@@ -133,11 +141,14 @@ No subtitles, no on-screen text, no logos.
 ---
 
 ### Klip 6 · Karda Maraş dondurması
+**Yükle (A):** karakter sayfası + Trabzon Caddesi referans fotoğrafı
+
 **A — Kare**
 ```
-Use the man from the character sheet exactly as he is (same face, beard, mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black extended selfie stick with action camera).
-A traditional ice-cream shop front on the snowy mid-2000s Kahramanmaraş shopping street: an ice-cream vendor in a white apron and white cap holds a cone on the end of a long metal paddle across the counter; snow falls on the awning. He stands at the counter on the right, reaching for the cone with a grin.
-Medium two-shot from the pavement. Blue-hour light and warm shop light. Looks like a mid-2000s compact digital camera frame. No readable text, no logos, no watermark.
+Use the man from the character sheet exactly as he is: same face, short dark-brown wavy hair, short trimmed beard, mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black extended selfie stick with a small action camera at its tip.
+Location: Trabzon Caddesi from the street photo, in the mid-2000s. Keep the street exactly as it appears in the photo: the same buildings and facades, shop fronts, pavement, street layout, trees, lamp posts and the style of the vehicles and people. Do not modernise anything. If the photo has no snow, add it: snow on rooftops, ledges and parked cars, packed snow and slush on the pavement and road, steady snowfall. Do not copy the faces of people in the photo; keep any locals small and in the background.
+A traditional ice-cream shop front on this street: an ice-cream vendor in a white apron and white cap holds a cone on the end of a long metal paddle across the counter; snow falls on the awning. He stands at the counter on the right, reaching for the cone with a grin. Medium two-shot from the pavement, the street behind. Blue-hour light and warm shop light.
+No smartphones, no flat-screen TVs, no LED screens, no modern cars. Looks like a frame from a mid-2000s compact digital camera: slightly oversaturated colours, mild softness. No readable text, no licence plates, no logos, no watermark.
 ```
 **B — Video**
 ```
@@ -152,11 +163,14 @@ Risk: iki kişi + nesne alışverişi. Bozulursa dondurmacı oyununu ayrı bir k
 ---
 
 ### Klip 7 · Telefoncu vitrini
+**Yükle (A):** karakter sayfası + Trabzon Caddesi referans fotoğrafı
+
 **A — Kare**
 ```
-Use the man from the character sheet exactly as he is (same face, beard, mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black extended selfie stick with action camera).
-View from inside a mid-2000s mobile phone shop looking out through the window: rows of small candybar and flip mobile phones with tiny screens on glass shelves in the foreground. Outside in the falling snow he leans close to the glass, studying the phones with an amused face.
-Bright shop light inside, blue evening outside. Looks like a mid-2000s compact digital camera frame. No readable text, no logos, no watermark.
+Use the man from the character sheet exactly as he is: same face, short dark-brown wavy hair, short trimmed beard, mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black extended selfie stick with a small action camera at its tip.
+Location: Trabzon Caddesi from the street photo, in the mid-2000s. Keep the street exactly as it appears in the photo: the same buildings and facades, shop fronts, pavement, street layout, trees, lamp posts and the style of the vehicles and people. Do not modernise anything. If the photo has no snow, add it: snow on rooftops, ledges and parked cars, packed snow and slush on the pavement and road, steady snowfall. Do not copy the faces of people in the photo; keep any locals small and in the background.
+View from inside a mid-2000s mobile phone shop on this street, looking out through the window: rows of small candybar and flip phones with tiny screens on glass shelves in the foreground. Outside in the falling snow, the street behind him, he leans close to the glass studying the phones with an amused face. Bright shop light inside, blue evening outside.
+No smartphones, no flat-screen TVs, no LED screens, no modern cars. Looks like a frame from a mid-2000s compact digital camera: slightly oversaturated colours, mild softness. No readable text, no licence plates, no logos, no watermark.
 ```
 **B — Video**
 ```
@@ -170,11 +184,14 @@ No subtitles, no on-screen text, no logos.
 ---
 
 ### Klip 8 · Akşam ışıkları, kapanış
+**Yükle (A):** karakter sayfası + Trabzon Caddesi referans fotoğrafı
+
 **A — Kare**
 ```
-Use the man from the character sheet exactly as he is (same face, beard, mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black extended selfie stick with action camera).
-Night on the snowy mid-2000s Kahramanmaraş shopping street from the street photo: heavy snowflakes falling through the glow of orange street lamps and backlit shop signs, fresh footprints in the snow, a few people walking home. Selfie view from the action camera at the end of the selfie stick: he stands under a street lamp, smiling softly at the camera.
-Looks like a mid-2000s compact digital camera frame. No readable text, no logos, no watermark.
+Use the man from the character sheet exactly as he is: same face, short dark-brown wavy hair, short trimmed beard, mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black extended selfie stick with a small action camera at its tip.
+Location: Trabzon Caddesi from the street photo, in the mid-2000s. Keep the street exactly as it appears in the photo: the same buildings and facades, shop fronts, pavement, street layout, trees, lamp posts and the style of the vehicles and people. Do not modernise anything. If the photo has no snow, add it: snow on rooftops, ledges and parked cars, packed snow and slush on the pavement and road, steady snowfall. Do not copy the faces of people in the photo; keep any locals small and in the background.
+Night: heavy snowflakes falling through the glow of orange street lamps and lit shop signs, fresh footprints in the snow, a few people walking home far away. Selfie view from the action camera at the end of the selfie stick: he stands under a street lamp, smiling softly at the camera.
+No smartphones, no flat-screen TVs, no LED screens, no modern cars. Looks like a frame from a mid-2000s compact digital camera: slightly oversaturated colours, mild softness. No readable text, no licence plates, no logos, no watermark.
 ```
 **B — Video**
 ```
