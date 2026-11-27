@@ -1,31 +1,19 @@
-# Karakter Sayfası Görsel Prompt'u
+# Karakter Referans Prompt'ları (Flow) — kullanıldı, onaylandı
 
-Amaç: Seedance'a `@Image1` olarak verilecek **tek bir görsel**: aynı kişi, aynı kıyafet, birden fazla açı.
-Topview'in görsel aracı veya herhangi bir görsel modeliyle üret. 3–4 deneme yap, yüzü en net ve kıyafeti en temiz olanı seç.
-
-Kaydet: `02-referanslar/karakter/karakter-sayfasi.jpg` (yatay, en az 2048 px genişlik önerilir).
-
-## Prompt (İngilizce — doldurulmuş, kopyala-yapıştır)
+## 1) Karakter sayfası (16:9)
 ```
 Character reference sheet of one original character, photorealistic, consistent identity across all views.
-Subject: a 30-year-old man, short dark-brown slightly wavy hair, a short neatly trimmed beard, warm brown eyes, medium height and a slim athletic build, wearing a mustard-yellow modern puffer jacket (zipped), a red knit beanie, dark navy jeans and white chunky sneakers, holding a long black extended selfie stick (about arm-length, fully extended) with a small black action camera mounted at its tip, gripped in his right hand. The selfie stick is clearly visible and fully extended in every view.
-Layout: one horizontal sheet with five full-body views side by side — front, three-quarter left, side profile, three-quarter right, back — plus one close-up head portrait in the top right corner.
-Same person, same outfit, same proportions in every view. Neutral relaxed pose, arms slightly away from the body so the jacket shape is readable.
-Background: plain light-grey studio backdrop, soft even studio light, no shadows on the background.
+Subject: a 30-year-old Turkish man, short black slightly curly hair, light stubble beard, dark brown eyes, olive skin, medium height, slim build. He wears a dark forest-green modern hooded parka (zipped, hood down), an orange knit beanie, a grey hoodie underneath, black jeans and brown leather hiking boots. He holds a long black extended selfie stick with a small black action camera mounted at its tip in his right hand.
+Layout: one horizontal sheet with five full-body views side by side — front, three-quarter left, side profile, three-quarter right, back.
+Same person, same outfit, same proportions in every view. Neutral relaxed pose, the selfie stick clearly visible and fully extended in every view.
+Background: plain light-grey studio backdrop, soft even studio light.
 Sharp focus, true-to-life skin texture, natural colours.
 No text, no labels, no logos, no watermark, no extra people.
 ```
 
-## Ek (isteğe bağlı) — kışlık versiyon kontrolü
-Karda nasıl göründüğünü test etmek için ikinci bir görsel:
+## 2) Yüz portresi (1:1, karakter sayfası yüklenerek)
 ```
-The same character from the reference sheet, standing on a snowy street, light snowfall, overcast winter daylight, full body, three-quarter view, looking at camera with a curious smile. Same outfit, same face. Photorealistic. No text, no logos.
+Close-up portrait of the same man from the character sheet: exactly the same face, short black slightly curly hair, light stubble, dark brown eyes, orange knit beanie, collar of the dark forest-green parka visible.
+Facing the camera, neutral friendly expression, eyes looking into the lens. Plain light-grey background, soft even studio light. Photorealistic, sharp focus on the eyes.
+No text, no logos, no watermark.
 ```
-Bu görsel yalnızca kontrol içindir; `@Image1` olarak her zaman **karakter sayfası** kullanılır.
-
-## Kontrol listesi
-- [ ] 5 açıda da yüz aynı kişi
-- [ ] Kıyafet renkleri tüm açılarda aynı
-- [ ] Ellerde bozulma yok
-- [ ] Üzerinde yazı/logo yok
-- [ ] Arka plan düz

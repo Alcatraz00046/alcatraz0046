@@ -1,33 +1,24 @@
-# Karakter Kartı — Karakter A (kimlik kilidi) ✅ dolduruldu · görsel: `02-referanslar/karakter/karakter-sayfasi.jpg`
+# Karakter Kartı — Yolcu (kimlik kilidi) ✅
 
-> Bu kart artık **sabit**. Tüm prompt'lardaki tarif buradan kopyalandı. Değiştirmek istersen önce burayı, sonra `04-sahne-listesi/` dosyalarını güncelle (Claude'a "karakter kartını değiştir" demen yeterli).
+> Kullanıcı Flow'da karakter sayfası (16:9, beş açı) ve yüz portresi (1:1) üretti ve onayladı. İki görsel Flow'da kayıtlı; **her kare üretiminde ikisi birlikte yüklenir.** (Eski hardal montlu karakter: `02-referanslar/karakter/arsiv/`.)
 
 | Alan | Değer |
 |---|---|
-| Etiket | Character A |
 | Seri içi adı | **Yolcu** |
-| Rol | Zaman yolcusu vlogger; şehri gezer, kameraya gösterir; konuşmalar kurguda Türkçe dış ses |
+| Rol | Zaman yolcusu vlogger; selfie çubuğuyla gezer, kameraya Türkçe konuşur |
 | Yaş | 30 |
-| Siluet / boy | Orta boy, ince-atletik yapı |
-| Yüz ve saç | Kısa, koyu kahve, hafif dalgalı saç; kısa ve düzgün kesilmiş sakal; sıcak kahverengi gözler |
-| **İmza kıyafet** (hiç değişmez) | Hardal sarısı modern şişme mont, kırmızı örgü bere, koyu lacivert kot, beyaz kalın tabanlı spor ayakkabı |
-| İmza aksesuar | Uzun, açılmış siyah selfie çubuğunun ucunda küçük siyah aksiyon kamera |
-| Renk çapası | Hardal sarısı + kırmızı (karda ve 90'ların gri sokaklarında net seçilir) |
-| Tavır | Meraklı, esprili, sıcak; detayları parmağıyla gösterir, şaşırınca kaşlarını kaldırır |
-| Asla olmayacaklar | Gözlük yok, dövme yok, kıyafette logo/yazı yok, bere hiç çıkmaz, mont rengi değişmez |
+| Yüz ve saç | Kısa, siyah, hafif kıvırcık saç; hafif sakal (kirli sakal); koyu kahve gözler; buğday ten |
+| Yapı | Orta boy, ince |
+| **İmza kıyafet** (hiç değişmez) | Koyu orman yeşili kapüşonlu parka (fermuarlı, kapüşon arkada), turuncu örgü bere, altında gri kapüşonlu sweatshirt, siyah kot, kahverengi deri bot |
+| İmza aksesuar | Uzun, açılmış siyah selfie çubuğu; ucunda küçük siyah aksiyon kamera |
+| Renk çapası | Yeşil + turuncu |
+| Asla | Gözlük, dövme, logo yok; bere hiç çıkmaz; parka rengi değişmez |
 
-## Kimlik cümlesi (her prompt'ta aynen)
+## Kare prompt'larında karakter cümlesi
 ```
-Character A from @Image1: a 30-year-old man, short dark-brown slightly wavy hair, a short neatly trimmed beard, warm brown eyes, medium height and a slim athletic build, wearing a mustard-yellow modern puffer jacket, a red knit beanie, dark navy jeans and white chunky sneakers, holding a long black extended selfie stick with a small black action camera mounted at its tip.
-```
-
-## Kilit satırı (her çekimin sonuna)
-```
-Lock: Character A from @Image1 — mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black selfie stick with action camera; <dönem + kar + ışık>; <konum, bakış>; camera <taraf>.
+Use the man from the character sheet and portrait exactly as he is: same face, short black slightly curly hair, light stubble beard, dark brown eyes, dark forest-green hooded parka, orange knit beanie, grey hoodie underneath, black jeans, brown leather hiking boots, long black extended selfie stick with a small action camera at its tip.
 ```
 
-## Neden bu seçimler?
-- **Modern kıyafet:** 1996 ve 2005 sokaklarında "yabancı" durur, zaman yolcusu olduğu tek bakışta anlaşılır.
-- **Hardal + kırmızı:** Gri, beyaz ve kahve tonlu karlı sahnelerde model karakteri karıştırmaz.
-- **Bere hiç çıkmaz:** Saç değişimi yüz kaymasının yaygın sebebidir; bere saç sorununu sabitler.
-- **Gözlüksüz, sade sakal:** Yüz detayı az olunca klipler arası tutarlılık daha kolay korunur.
+## Video prompt'larında
+- Anma: `the man in the dark-green parka and orange beanie`
+- Kilit: `Keep his face, stubble, curly hair, green parka, orange beanie and selfie stick exactly the same throughout.`

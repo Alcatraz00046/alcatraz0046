@@ -2,7 +2,7 @@
 
 | Klasör | Ne koyulur |
 |---|---|
-| `karakter/` | `karakter-sayfasi.jpg` (zorunlu), isteğe bağlı kontrol görselleri |
+| `karakter/` | Yeni karakter görselleri Flow'da kayıtlı (istersen buraya `karakter-sayfasi.jpg` + `portre.jpg` olarak ekle); `arsiv/` eski karakter |
 | `gunumuz/` | Bugünkü Maraş (açılış/geçiş klibi için) |
 | `1990lar-kar/` | 1990'lardan karlı Maraş fotoğrafları |
 | `2000ler-kar/` | 2000'lerden karlı Maraş fotoğrafları |

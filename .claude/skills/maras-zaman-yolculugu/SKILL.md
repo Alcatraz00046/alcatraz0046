@@ -19,7 +19,7 @@ tags: [flow, veo, maras, time-travel, vlog]
 - Etiket yok (`@Image1` yazma). Görseller yüklenir; prompt "the man from the character sheet", "the street photo" diye anar.
 - Her klip iki adım: **A** kare (görsel üret: karakter sayfası + referans foto, 9:16) → **B** Frames to Video (8 sn, 9:16). Geçiş kliplerinde ilk kare = `02-referanslar/gecis-beyaz-kare.png`.
 - Klip başına tek çekim, tek ana hareket, en fazla bir kısa Türkçe cümle (sayıları yazıyla: "iki bin beş").
-- Video prompt'u her zaman şunu içerir: `Keep his face, beard, jacket, beanie and selfie stick exactly the same throughout.` ve `No subtitles, no on-screen text, no logos.`
+- Video prompt'u her zaman şunu içerir: `Keep his face, stubble, curly hair, green parka, orange beanie and selfie stick exactly the same throughout.` ve `No subtitles, no on-screen text, no logos.`
 - 2005 dönemi: akıllı telefon, düz ekran TV, LED ekran, modern araç yok. Okunur yazı/plaka/logo isteme.
 - Gerçek fotoğraflardaki insanların yüzleri karaktere taşınmaz; yalnızca mekân ve dönem.
 - Kullanıcı klip gönderirse: ffmpeg ile saniyede bir kare çıkarıp kontrol et (yüz, kıyafet, mekân, dönem hatası, geçiş), sesi dinleyemediğini söyle, `05-uretim-takip.md`'ye yaz.
