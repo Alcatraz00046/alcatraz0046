@@ -8,7 +8,7 @@ Durum: `bekliyor` · `üretildi` · `kabul` · `ret`
 
 | Klip | Deneme | Tarih | Değişen şey | Sorun (yüz kayması / el / yazı / kalabalık / ışık / diğer) | Durum | Dosya |
 |---|---|---|---|---|---|---|
-| 1 | 1 | 2026-11-27 | Yeni karakter, kar yok, ışık geçişi | Kullanıcı kontrol etti: sorun yok; son beyaz kare SS alındı | kabul | (kullanıcıda) |
+| 1 | 1 | 2026-11-27 | Yeni karakter, kar yok, ışık geçişi | Kullanıcı kontrol etti: sorun yok. Replik "iki binli yıllar" dediği için fuar planında B yeniden üretilecek | yenile | (kullanıcıda) |
 | 2 | 1 | | — | | bekliyor | |
 | 3 | 1 | | — | | bekliyor | |
 | 4 | 1 | | — | | bekliyor | |
@@ -17,7 +17,7 @@ Durum: `bekliyor` · `üretildi` · `kabul` · `ret`
 | 7 | 1 | | — | | bekliyor | |
 | 8 | 1 | | — | | bekliyor | |
 
-Bölüm: `04-sahne-listesi/bolum-01-2005-trabzon-caddesi.md`
+Bölüm: `04-sahne-listesi/bolum-01-90lar-maras-fuari.md` (Trabzon 2005 planı arşivde)
 
 Arşiv (eski 1996 planı): 1-01 deneme 1, 2026-11-27, Flow — karakter tutarlı, beyaz kareyle bitiyor, cadde Trabzon Caddesi'ne benzemedi, replik "doksanlara" dediği için yeni planda yeniden üretilecek.
 
