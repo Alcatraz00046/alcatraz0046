@@ -39,7 +39,7 @@ Prompt kuralları için `seedance-20` alt kaynaklarını kullan:
 Mod: Reference-to-video | First/Last frame | Extend
 Süre: <4–15> sn · Oran: 9:16 (varsayılan) · Çekim sayısı: <1–3>
 Yükleme sırası:
-  @Image1 = 01-karakter/karakter-sayfasi.png  (kimlik)
+  @Image1 = 01-karakter/karakter-sayfasi.jpg  (kimlik)
   @Image2 = 02-referanslar/...                (mekân)
   ...
 Prompt:

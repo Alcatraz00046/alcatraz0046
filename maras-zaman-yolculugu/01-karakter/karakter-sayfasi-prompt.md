@@ -3,12 +3,12 @@
 Amaç: Seedance'a `@Image1` olarak verilecek **tek bir görsel**: aynı kişi, aynı kıyafet, birden fazla açı.
 Topview'in görsel aracı veya herhangi bir görsel modeliyle üret. 3–4 deneme yap, yüzü en net ve kıyafeti en temiz olanı seç.
 
-Kaydet: `02-referanslar/karakter/karakter-sayfasi.png` (yatay, en az 2048 px genişlik önerilir).
+Kaydet: `02-referanslar/karakter/karakter-sayfasi.jpg` (yatay, en az 2048 px genişlik önerilir).
 
 ## Prompt (İngilizce — doldurulmuş, kopyala-yapıştır)
 ```
 Character reference sheet of one original character, photorealistic, consistent identity across all views.
-Subject: a 30-year-old man, short dark-brown slightly wavy hair, a short neatly trimmed beard, warm brown eyes, medium height and a slim athletic build, wearing a mustard-yellow modern puffer jacket (zipped), a red knit beanie, dark navy jeans and white chunky sneakers, holding a small black action camera on a selfie stick in his right hand.
+Subject: a 30-year-old man, short dark-brown slightly wavy hair, a short neatly trimmed beard, warm brown eyes, medium height and a slim athletic build, wearing a mustard-yellow modern puffer jacket (zipped), a red knit beanie, dark navy jeans and white chunky sneakers, holding a small black action camera on a short handheld grip.
 Layout: one horizontal sheet with five full-body views side by side — front, three-quarter left, side profile, three-quarter right, back — plus one close-up head portrait in the top right corner.
 Same person, same outfit, same proportions in every view. Neutral relaxed pose, arms slightly away from the body so the jacket shape is readable.
 Background: plain light-grey studio backdrop, soft even studio light, no shadows on the background.

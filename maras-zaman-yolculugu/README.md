@@ -14,7 +14,7 @@ Seyahat vlogu tarzında, bir karakterin geçmişteki bir güne (ör. **1996 karl
 Proje skill'i: `.claude/skills/maras-zaman-yolculugu/` (Claude Code'da `/maras-zaman-yolculugu`). Prompt kuralları `seedance-20` skill'inden gelir.
 
 ## İş akışı (5 adım)
-1. **Karakteri kilitle** → `01-karakter/karakter-karti.md` doldur, `karakter-sayfasi-prompt.md` ile görsel üret (Topview görsel aracı veya başka bir görsel modeli), en iyisini `02-referanslar/karakter/karakter-sayfasi.png` olarak kaydet.
+1. **Karakteri kilitle** → `01-karakter/karakter-karti.md` doldur, `karakter-sayfasi-prompt.md` ile görsel üret (Topview görsel aracı veya başka bir görsel modeli), en iyisini `02-referanslar/karakter/karakter-sayfasi.jpg` olarak kaydet.
 2. **Referansları topla** → dönem klasörlerine fotoğrafları koy, `02-referanslar/README.md`'deki isim düzenine uy.
 3. **Klibi seç** → `04-sahne-listesi/` içinden klip; yükleme sırasını birebir uygula (`@Image1` = karakter sayfası, sonra mekân fotoğrafları).
 4. **Topview'de üret** → Seedance 2.0, reference/omni modu, süre ve oran klip kartındaki gibi. Prompt'u kopyala-yapıştır.
