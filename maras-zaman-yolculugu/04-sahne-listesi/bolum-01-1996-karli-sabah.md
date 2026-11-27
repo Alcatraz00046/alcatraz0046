@@ -13,8 +13,8 @@ Bugün → kar fırtınası beyazlığı → 1996 sabahı → cadde → telefon 
 | # | Başlık | Süre | Çekim | Referanslar |
 |---|---|---|---|---|
 | 1-01 | Bugün, kar başlıyor | 8 sn | 2 | @Image1 karakter, @Image2 günümüz |
-| 1-02 | Beyazdan 1996'ya | 10 sn | 2 | @Image1, @Image2 90'lar cadde |
-| 1-03 | Cadde yürüyüşü (selfie) | 8 sn | 1 | @Image1, @Image2 cadde, @Image3 araç/dolmuş |
+| 1-02 | Beyazdan 1996'ya | 10 sn | 2 | @Image1, @Image2 karlı cadde (dolmuşlar) |
+| 1-03 | Cadde yürüyüşü (selfie) | 8 sn | 1 | @Image1, @Image2 karlı cadde (dolmuşlar) |
 | 1-04 | Kartlı telefon kulübesi | 10 sn | 2 | @Image1, @Image2 kulübe/sokak |
 | 1-05 | Bakırcılar çarşısı | 12 sn | 3 | @Image1, @Image2 çarşı, @Image3 bakır dükkânı |
 | 1-06 | Karda Maraş dondurması | 12 sn | 3 | @Image1, @Image2 dondurmacı/dükkân |
@@ -47,35 +47,39 @@ Risk: orta — fotoğrafta çok sayıda yüz ve tabela var; reddedilirse fotoğr
 ---
 
 ### Klip 1-02 · Beyazdan 1996'ya
-Mod: Reference-to-video · 10 sn · 2 çekim
-Yükleme: `@Image1` = karakter · `@Image2` = 1990lar-kar/<cadde>.jpg
+Mod: Reference-to-video · 10 sn · 2 çekim · Oran 9:16
+Yükleme: `@Image1` = karakter/karakter-sayfasi.jpg · `@Image2` = 2000ler-kar/01-cadde-dolmuslar-karli.jpg
+Not: Fotoğraf muhtemelen 2000'ler/2010'lar (klimalar, çanak antenler). Prompt onları silip 90'lara çeviriyor. Gerçek bir 90'lar fotoğrafı bulursan `@Image2`'yi onunla değiştir.
 ```
-@Image1 controls the identity of Character A only. @Image2 controls location, architecture, signage and 1990s atmosphere only; do not copy any face from @Image2.
+@Image1 controls the identity of Character A only. @Image2 controls only the street layout, the snow-covered central median with blue-and-white kerbs and snow-covered palm trees, the apartment blocks and the white minibuses; do not copy any face, licence plate, sign text or logo from @Image2.
 Character A from @Image1: a 30-year-old man, short dark-brown slightly wavy hair, a short neatly trimmed beard, warm brown eyes, medium height and a slim athletic build, wearing a mustard-yellow modern puffer jacket, a red knit beanie, dark navy jeans and white chunky sneakers, holding a long black extended selfie stick with a small black action camera mounted at its tip. Look: shot like a late-1990s consumer camcorder: slightly soft image, mild tape noise, gentle colour bleed.
+Make it look like the mid-1990s: remove all air-conditioning units and satellite dishes from the facades, older weathered paint, fewer and older cars, simple hand-painted shop signs.
 
-Shot 1. The frame starts fully white with swirling snow; the snow settles and reveals a snowy mid-1990s Kahramanmaraş street matching @Image2: low concrete buildings, hand-painted shop signs, boxy old sedans parked under snow, thin coal smoke from stovepipes. Character A stands in the middle of the pavement, back to camera. Camera: slow push-in. Sound: wind fading into a quiet snowy street, a distant car engine.
-Lock: Character A from @Image1 — mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black selfie stick with action camera; snowy mid-1990s Kahramanmaraş, overcast morning light; centre of the pavement, back to camera; camera behind him.
+Shot 1. The frame starts fully white with swirling snow; the snow settles and reveals the snowy mid-1990s Kahramanmaraş avenue matching @Image2: the snow-covered median with palm trees bent under snow, white minibuses and boxy old sedans moving slowly through grey slush, five-storey apartment blocks on both sides. Character A stands on the snowy median in the foreground, back to camera, looking down the avenue. Camera: slow push-in. Sound: wind fading into a quiet snowy street, a minibus engine, a distant horn.
+Lock: Character A from @Image1 — mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black selfie stick with action camera; snowy mid-1990s Kahramanmaraş avenue, overcast morning light, light snowfall; centre of the median, back to camera; camera behind him.
 
-Shot 2. Cut to a medium shot from the front: Character A turns slowly, looking left and right at the old street, mouth slightly open, then a disbelieving laugh as his breath fogs in the cold air. Locals in long dark coats walk past in the background. Sound: crunching snow footsteps.
-Lock: Character A from @Image1 — mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black selfie stick with action camera; snowy mid-1990s Kahramanmaraş, overcast morning light; centre frame, facing camera; camera in front of him.
+Shot 2. Cut to a medium shot from the front: Character A turns slowly, looking left and right at the old minibuses and sedans, mouth slightly open, then a disbelieving laugh as his breath fogs in the cold air. Sound: crunching snow footsteps, slush under tyres.
+Lock: Character A from @Image1 — mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black selfie stick with action camera; snowy mid-1990s Kahramanmaraş avenue, overcast morning light; on the median, facing camera, palm tree behind him; camera in front of him.
 
-No subtitles, no on-screen text, no logos, no watermark.
+No subtitles, no on-screen text, no logos, no watermark, no readable licence plates. No smartphones, no modern cars.
 ```
 Kurguda: ekran yazısı **"KAHRAMANMARAŞ · OCAK 1996"** (kurguda ekle, modele yazdırma).
+Risk: orta — model klima/çanak anteni bırakabilir; bırakırsa takip dosyasına yaz, sonraki denemede `Make it look like the mid-1990s: remove all air-conditioning units and satellite dishes from the facades, older weathered paint, fewer and older cars, simple hand-painted shop signs.` cümlesini prompt'un en başına taşı.
 
 ---
 
 ### Klip 1-03 · Cadde yürüyüşü (selfie)
-Mod: Reference-to-video · 8 sn · tek sürekli çekim
-Yükleme: `@Image1` = karakter · `@Image2` = cadde · `@Image3` = araç/dolmuş fotoğrafı
+Mod: Reference-to-video · 8 sn · tek sürekli çekim · Oran 9:16
+Yükleme: `@Image1` = karakter/karakter-sayfasi.jpg · `@Image2` = 2000ler-kar/01-cadde-dolmuslar-karli.jpg (90'lar fotoğrafı gelince onu kullan)
 ```
-@Image1 controls the identity of Character A only. @Image2 controls the street and buildings; @Image3 controls the period vehicles only; do not copy any face from @Image2 or @Image3.
+@Image1 controls the identity of Character A only. @Image2 controls only the street, the apartment blocks, the palm trees and the white minibuses; do not copy any face, licence plate, sign text or logo from @Image2.
 Character A from @Image1: a 30-year-old man, short dark-brown slightly wavy hair, a short neatly trimmed beard, warm brown eyes, medium height and a slim athletic build, wearing a mustard-yellow modern puffer jacket, a red knit beanie, dark navy jeans and white chunky sneakers, holding a long black extended selfie stick with a small black action camera mounted at its tip.
-Single continuous take, selfie angle from the action camera at arm's length: Character A walks along a snowy mid-1990s Kahramanmaraş main street matching @Image2, talking cheerfully to the camera and pointing over his shoulder. Behind him an old white minibus and a yellow taxi like those in @Image3 roll slowly through the slush; a man carries a tray of simit on his head; shop windows glow warm.
+Make it look like the mid-1990s: remove all air-conditioning units and satellite dishes from the facades, older weathered paint, fewer and older cars, simple hand-painted shop signs.
+Single continuous take, selfie angle from the action camera at the end of the selfie stick: Character A walks along the snowy pavement of the mid-1990s Kahramanmaraş avenue matching @Image2, talking cheerfully to the camera and pointing over his shoulder. Behind him a white minibus and a boxy old sedan roll slowly through the slush; snow-covered palm trees on the median; a man carries a tray of simit on his head; shop windows glow warm.
 Light steady snowfall, overcast morning light. Look: shot like a late-1990s consumer camcorder: slightly soft image, mild tape noise, gentle colour bleed.
 Sound: snow footsteps, minibus engine, muffled street voices.
-Lock: Character A from @Image1 — mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black selfie stick with action camera; snowy mid-1990s Kahramanmaraş, overcast morning; centre frame walking toward camera; camera in front of him.
-No subtitles, no on-screen text, no logos, no watermark.
+Lock: Character A from @Image1 — mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black selfie stick with action camera; snowy mid-1990s Kahramanmaraş avenue, overcast morning; centre frame walking toward camera; camera in front of him.
+No subtitles, no on-screen text, no logos, no watermark, no readable licence plates. No smartphones, no modern cars.
 ```
 Kurguda: dış ses — *"Arabalara bakın... Şahinler, dolmuşlar. Herkes paltolu."*
 Risk: orta (yürürken yüz kayması). Kayarsa `Single continuous take` yerine kamera sabit, karakter yerinde dönerek anlatsın.
