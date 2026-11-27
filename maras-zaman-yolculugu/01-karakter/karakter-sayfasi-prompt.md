@@ -5,10 +5,10 @@ Topview'in görsel aracı veya herhangi bir görsel modeliyle üret. 3–4 denem
 
 Kaydet: `02-referanslar/karakter/karakter-sayfasi.png` (yatay, en az 2048 px genişlik önerilir).
 
-## Prompt (İngilizce — köşeli parantezleri karakter kartından doldur)
+## Prompt (İngilizce — doldurulmuş, kopyala-yapıştır)
 ```
 Character reference sheet of one original character, photorealistic, consistent identity across all views.
-Subject: [yaş], [yüz ve saç], wearing [imza kıyafet], holding [imza aksesuar].
+Subject: a 30-year-old man, short dark-brown slightly wavy hair, a short neatly trimmed beard, warm brown eyes, medium height and a slim athletic build, wearing a mustard-yellow modern puffer jacket (zipped), a red knit beanie, dark navy jeans and white chunky sneakers, holding a small black action camera on a selfie stick in his right hand.
 Layout: one horizontal sheet with five full-body views side by side — front, three-quarter left, side profile, three-quarter right, back — plus one close-up head portrait in the top right corner.
 Same person, same outfit, same proportions in every view. Neutral relaxed pose, arms slightly away from the body so the jacket shape is readable.
 Background: plain light-grey studio backdrop, soft even studio light, no shadows on the background.

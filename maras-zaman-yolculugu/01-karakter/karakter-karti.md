@@ -1,39 +1,33 @@
-# Karakter Kartı — Karakter A (kimlik kilidi)
+# Karakter Kartı — Karakter A (kimlik kilidi) ✅ dolduruldu
 
-> Bu kart bir kere doldurulur, sonra **değişmez**. Tüm prompt'lardaki tarif buradan kopyalanır.
-> Köşeli parantezli alanları doldur. Aşağıdaki "örnek" sütunu sadece fikir içindir.
+> Bu kart artık **sabit**. Tüm prompt'lardaki tarif buradan kopyalandı. Değiştirmek istersen önce burayı, sonra `04-sahne-listesi/` dosyalarını güncelle (Claude'a "karakter kartını değiştir" demen yeterli).
 
-| Alan | Değer (doldur) | Örnek |
-|---|---|---|
-| Etiket | Character A | Character A |
-| Seri içi adı | [ ] | "Yolcu" |
-| Rol | Zaman yolcusu vlogger; kameraya konuşur, şehri gezer | — |
-| Yaş aralığı | [ ] | late twenties |
-| Siluet / boy | [ ] | medium height, slim |
-| Yüz ve saç | [ ] | short dark wavy hair, trimmed beard, warm brown eyes |
-| **İmza kıyafet** (hiç değişmez) | [ ] | mustard-yellow modern puffer jacket, red knit beanie, dark jeans, white sneakers |
-| İmza aksesuar | [ ] | small black action camera on a selfie stick |
-| Renk çapası | [ ] | mustard + red (karda net seçilir) |
-| Tavır | [ ] | curious, smiling, speaks softly to camera, points at details |
-| Asla olmayacaklar | [ ] | no glasses, no logo on clothes, no hat change, no tattoos |
+| Alan | Değer |
+|---|---|
+| Etiket | Character A |
+| Seri içi adı | **Yolcu** |
+| Rol | Zaman yolcusu vlogger; şehri gezer, kameraya gösterir; konuşmalar kurguda Türkçe dış ses |
+| Yaş | 30 |
+| Siluet / boy | Orta boy, ince-atletik yapı |
+| Yüz ve saç | Kısa, koyu kahve, hafif dalgalı saç; kısa ve düzgün kesilmiş sakal; sıcak kahverengi gözler |
+| **İmza kıyafet** (hiç değişmez) | Hardal sarısı modern şişme mont, kırmızı örgü bere, koyu lacivert kot, beyaz kalın tabanlı spor ayakkabı |
+| İmza aksesuar | Selfie çubuğuna takılı küçük siyah aksiyon kamera |
+| Renk çapası | Hardal sarısı + kırmızı (karda ve 90'ların gri sokaklarında net seçilir) |
+| Tavır | Meraklı, esprili, sıcak; detayları parmağıyla gösterir, şaşırınca kaşlarını kaldırır |
+| Asla olmayacaklar | Gözlük yok, dövme yok, kıyafette logo/yazı yok, bere hiç çıkmaz, mont rengi değişmez |
 
-## Prompt'a girecek kısa kimlik cümlesi
-Kart dolunca bu cümleyi tamamla; **her klipte aynen** kullanılır:
-
+## Kimlik cümlesi (her prompt'ta aynen)
 ```
-Character A from @Image1: [yaş], [yüz ve saç], wearing [imza kıyafet], holding [imza aksesuar].
-```
-
-Örnek:
-```
-Character A from @Image1: a man in his late twenties, short dark wavy hair and a trimmed beard, wearing a mustard-yellow modern puffer jacket, a red knit beanie, dark jeans and white sneakers, holding a small black action camera on a selfie stick.
+Character A from @Image1: a 30-year-old man, short dark-brown slightly wavy hair, a short neatly trimmed beard, warm brown eyes, medium height and a slim athletic build, wearing a mustard-yellow modern puffer jacket, a red knit beanie, dark navy jeans and white chunky sneakers, holding a small black action camera on a selfie stick.
 ```
 
 ## Kilit satırı (her çekimin sonuna)
 ```
-Lock: Character A from @Image1 — [imza kıyafet kısa hali]; [dönem + kar + ışık]; [konum, bakış yönü]; camera [taraf].
+Lock: Character A from @Image1 — mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, selfie stick; <dönem + kar + ışık>; <konum, bakış>; camera <taraf>.
 ```
 
-## Neden imza kıyafet?
-- Dönemler değiştikçe her şey değişir; karakteri sabit tutan en güçlü çapa kıyafet ve renktir.
-- Modern kıyafetin 90'lar/2000'ler ortamında "yabancı" durması zaman yolculuğu hissini kendiliğinden verir.
+## Neden bu seçimler?
+- **Modern kıyafet:** 1996 ve 2005 sokaklarında "yabancı" durur, zaman yolcusu olduğu tek bakışta anlaşılır.
+- **Hardal + kırmızı:** Gri, beyaz ve kahve tonlu karlı sahnelerde model karakteri karıştırmaz.
+- **Bere hiç çıkmaz:** Saç değişimi yüz kaymasının yaygın sebebidir; bere saç sorununu sabitler.
+- **Gözlüksüz, sade sakal:** Yüz detayı az olunca klipler arası tutarlılık daha kolay korunur.
