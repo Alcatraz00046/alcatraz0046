@@ -8,7 +8,7 @@ Kaydet: `02-referanslar/karakter/karakter-sayfasi.jpg` (yatay, en az 2048 px gen
 ## Prompt (İngilizce — doldurulmuş, kopyala-yapıştır)
 ```
 Character reference sheet of one original character, photorealistic, consistent identity across all views.
-Subject: a 30-year-old man, short dark-brown slightly wavy hair, a short neatly trimmed beard, warm brown eyes, medium height and a slim athletic build, wearing a mustard-yellow modern puffer jacket (zipped), a red knit beanie, dark navy jeans and white chunky sneakers, holding a small black action camera on a short handheld grip.
+Subject: a 30-year-old man, short dark-brown slightly wavy hair, a short neatly trimmed beard, warm brown eyes, medium height and a slim athletic build, wearing a mustard-yellow modern puffer jacket (zipped), a red knit beanie, dark navy jeans and white chunky sneakers, holding a long black extended selfie stick (about arm-length, fully extended) with a small black action camera mounted at its tip, gripped in his right hand. The selfie stick is clearly visible and fully extended in every view.
 Layout: one horizontal sheet with five full-body views side by side — front, three-quarter left, side profile, three-quarter right, back — plus one close-up head portrait in the top right corner.
 Same person, same outfit, same proportions in every view. Neutral relaxed pose, arms slightly away from the body so the jacket shape is readable.
 Background: plain light-grey studio backdrop, soft even studio light, no shadows on the background.
