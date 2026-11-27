@@ -8,7 +8,7 @@ Durum: `bekliyor` · `üretildi` · `kabul` · `ret`
 
 | Klip | Deneme | Tarih | Değişen şey | Sorun (yüz kayması / el / yazı / kalabalık / ışık / diğer) | Durum | Dosya |
 |---|---|---|---|---|---|---|
-| 1 | 1 | | — | | bekliyor | |
+| 1 | 1 | 2026-11-27 | Yeni karakter, kar yok, ışık geçişi | Kullanıcı kontrol etti: sorun yok; son beyaz kare SS alındı | kabul | (kullanıcıda) |
 | 2 | 1 | | — | | bekliyor | |
 | 3 | 1 | | — | | bekliyor | |
 | 4 | 1 | | — | | bekliyor | |
