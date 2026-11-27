@@ -1,6 +1,6 @@
 ---
 name: maras-zaman-yolculugu
-description: "Kahramanmaraş zaman yolculuğu vlog serisi (aktif: 2005 karlı akşam, Trabzon Caddesi) için Google Flow (Veo 3.1) kare + video prompt'ları, karakter tutarlılığı ve sahne listesi üretir. Kullanıcı Maraş/zaman yolculuğu/yeni klip/yeni bölüm/prompt istediğinde, referans fotoğraf veya üretilmiş klip gönderdiğinde kullan."
+description: "Kahramanmaraş zaman yolculuğu vlog serisi (aktif: 2005 Trabzon Caddesi, normal gün, kar yok) için Google Flow (Veo 3.1) kare + video prompt'ları, karakter tutarlılığı ve sahne listesi üretir. Kullanıcı Maraş/zaman yolculuğu/yeni klip/yeni bölüm/prompt istediğinde, referans fotoğraf veya üretilmiş klip gönderdiğinde kullan."
 user-invocable: true
 tags: [flow, veo, maras, time-travel, vlog]
 ---
