@@ -1,0 +1,12 @@
+{
+  "backup_name": ".seedance-20.install-backup",
+  "destination_name": "seedance-20",
+  "format_version": 3,
+  "payload_manifest_sha256": "27a06940cf9fdc4bd9a1754a6a0da9ead75b54c6a4ff14f666fab3984a3bf57c",
+  "quarantine_name": ".seedance-20.install-quarantine-a0acff7bf97745659500e255c2c199d6",
+  "record_sha256": "516ab9a62f5870352c23b407cf9029dc6ceadaa6d5e6e8bbd83ae28a2747938c",
+  "skill_name": "seedance-20",
+  "stage_name": ".seedance-20.install-stage-453-a0acff7bf97745659500e255c2c199d6",
+  "transaction_id": "a0acff7bf97745659500e255c2c199d6",
+  "transaction_record_sha256": "c18783b72e5eac481eaf6d9836cd46b868d8d97e284bd909a409a1a283a8de3c"
+}
