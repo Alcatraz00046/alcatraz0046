@@ -1,12 +1,14 @@
 # Üretim Takip
 
+Üretim aracı: **Google Flow (Veo 3.1)** — prompt'lar Flow'a uyarlanıyor (etiketsiz, 8 sn, Türkçe konuşma Veo'da).
+
 Her denemeyi bir satır olarak yaz. Bir sonraki denemede **tek bir şeyi** değiştir.
 
 Durum: `bekliyor` · `üretildi` · `kabul` · `ret`
 
 | Klip | Deneme | Tarih | Değişen şey | Sorun (yüz kayması / el / yazı / kalabalık / ışık / diğer) | Durum | Dosya |
 |---|---|---|---|---|---|---|
-| 1-01 | 1 | | — | | bekliyor | |
+| 1-01 | 1 | 2026-11-27 | Flow (Veo): 2a başlangıç karesi + 2b Frames to Video, Türkçe konuşma | Cadde Trabzon Caddesi'ne benzemiyor (genel modern cadde); karakter, kıyafet, selfie çubuğu tutarlı; beyaz kareyle bitiyor | kabul (aday) | 1-01_deneme1.mp4 |
 | 1-02 | 1 | | — | | bekliyor | |
 | 1-03 | 1 | | — | | bekliyor | |
 | 1-04 | 1 | | — | | bekliyor | |
