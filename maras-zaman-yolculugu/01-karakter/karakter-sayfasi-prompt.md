@@ -1,0 +1,31 @@
+# Karakter Sayfası Görsel Prompt'u
+
+Amaç: Seedance'a `@Image1` olarak verilecek **tek bir görsel**: aynı kişi, aynı kıyafet, birden fazla açı.
+Topview'in görsel aracı veya herhangi bir görsel modeliyle üret. 3–4 deneme yap, yüzü en net ve kıyafeti en temiz olanı seç.
+
+Kaydet: `02-referanslar/karakter/karakter-sayfasi.png` (yatay, en az 2048 px genişlik önerilir).
+
+## Prompt (İngilizce — köşeli parantezleri karakter kartından doldur)
+```
+Character reference sheet of one original character, photorealistic, consistent identity across all views.
+Subject: [yaş], [yüz ve saç], wearing [imza kıyafet], holding [imza aksesuar].
+Layout: one horizontal sheet with five full-body views side by side — front, three-quarter left, side profile, three-quarter right, back — plus one close-up head portrait in the top right corner.
+Same person, same outfit, same proportions in every view. Neutral relaxed pose, arms slightly away from the body so the jacket shape is readable.
+Background: plain light-grey studio backdrop, soft even studio light, no shadows on the background.
+Sharp focus, true-to-life skin texture, natural colours.
+No text, no labels, no logos, no watermark, no extra people.
+```
+
+## Ek (isteğe bağlı) — kışlık versiyon kontrolü
+Karda nasıl göründüğünü test etmek için ikinci bir görsel:
+```
+The same character from the reference sheet, standing on a snowy street, light snowfall, overcast winter daylight, full body, three-quarter view, looking at camera with a curious smile. Same outfit, same face. Photorealistic. No text, no logos.
+```
+Bu görsel yalnızca kontrol içindir; `@Image1` olarak her zaman **karakter sayfası** kullanılır.
+
+## Kontrol listesi
+- [ ] 5 açıda da yüz aynı kişi
+- [ ] Kıyafet renkleri tüm açılarda aynı
+- [ ] Ellerde bozulma yok
+- [ ] Üzerinde yazı/logo yok
+- [ ] Arka plan düz
