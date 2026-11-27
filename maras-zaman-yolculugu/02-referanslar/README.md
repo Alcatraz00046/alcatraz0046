@@ -23,3 +23,4 @@ Yıl kesin değilse `199x` yaz. Fotoğrafı eklediğinde aşağıdaki tabloya bi
 | Dosya | Dönem | Yer | Ne gösteriyor | Kullanıldığı klip |
 |---|---|---|---|---|
 | (örnek) 01-trabzon-caddesi-1996.jpg | 1990lar | Trabzon Caddesi | karlı cadde, eski sedanlar, dükkân tabelaları | 1-02 |
+| gunumuz/01-trabzon-caddesi-gunumuz.jpg | Günümüz (yaz) | Trabzon Caddesi | geniş yaya caddesi, desenli taş kaldırım, ağaç sırası, mağazalar; çok yüz + tabela var | 1-01 |

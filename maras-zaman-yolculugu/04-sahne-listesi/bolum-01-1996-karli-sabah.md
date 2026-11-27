@@ -24,23 +24,26 @@ Bugün → kar fırtınası beyazlığı → 1996 sabahı → cadde → telefon 
 ---
 
 ### Klip 1-01 · Bugün, kar başlıyor
-Mod: Reference-to-video · 8 sn · 2 çekim
-Yükleme: `@Image1` = karakter/karakter-sayfasi.jpg · `@Image2` = gunumuz/<bugünkü cadde>.jpg
+Mod: Reference-to-video · 8 sn · 2 çekim · Oran 9:16
+Yükleme: `@Image1` = karakter/karakter-sayfasi.jpg · `@Image2` = gunumuz/01-trabzon-caddesi-gunumuz.jpg
+Not: Fotoğraf yaz günü; prompt mevsimi kışa çeviriyor (çıplak ağaçlar, gri gökyüzü). Model yazı inatla yeşil yaparsa aşağıdaki "B planı"nı kullan.
 ```
-@Image1 controls the identity of Character A only. @Image2 controls the present-day location only; do not copy any face from @Image2.
-Character A from @Image1: a 30-year-old man, short dark-brown slightly wavy hair, a short neatly trimmed beard, warm brown eyes, medium height and a slim athletic build, wearing a mustard-yellow modern puffer jacket, a red knit beanie, dark navy jeans and white chunky sneakers, holding a long black extended selfie stick with a small black action camera mounted at its tip. Present-day Kahramanmaraş street matching @Image2, cold grey winter afternoon, first snowflakes falling.
+@Image1 controls the identity of Character A only. @Image2 controls only the street layout, the wide patterned stone pavement, the row of trees and the shop buildings of this present-day pedestrian avenue; do not copy any face, person, shop sign text or logo from @Image2.
+Character A from @Image1: a 30-year-old man, short dark-brown slightly wavy hair, a short neatly trimmed beard, warm brown eyes, medium height and a slim athletic build, wearing a mustard-yellow modern puffer jacket, a red knit beanie, dark navy jeans and white chunky sneakers, holding a long black extended selfie stick with a small black action camera mounted at its tip.
+Change the season to winter: the same avenue on a cold grey winter afternoon, leafless bare trees, overcast white sky, a few people in dark winter coats walking far in the background, the first snowflakes beginning to fall.
 
-Shot 1. Selfie angle from the action camera at arm's length, slight wide-angle: Character A walks toward camera along the pavement, glances up at the falling snow and smiles with raised eyebrows. Sound: modern traffic, light wind.
-Lock: Character A from @Image1 — mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black selfie stick with action camera; present-day street, grey winter daylight; centre frame, facing camera; camera in front of him.
+Shot 1. Selfie angle from the action camera at the end of the selfie stick, slight wide-angle: Character A walks toward camera down the middle of the patterned pavement, glances up at the first falling snowflakes and smiles with raised eyebrows. Sound: soft crowd murmur, light wind.
+Lock: Character A from @Image1 — mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black selfie stick with action camera; present-day pedestrian avenue in winter, grey afternoon light, bare trees; centre frame, facing camera; camera in front of him.
 
-Shot 2. Cut to a wide shot from across the street: a sudden gust whips thick snow across the frame until the whole image turns white. Sound: rising wind whoosh.
-Lock: Character A from @Image1 — mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black selfie stick with action camera; same street, same light; small in the middle of the frame; camera across the street.
+Shot 2. Cut to a wide shot from the side of the avenue: Character A stands still in the middle of the pavement as a sudden gust whips thick snow across the frame until the whole image turns white. Sound: rising wind whoosh.
+Lock: Character A from @Image1 — mustard-yellow puffer jacket, red knit beanie, dark navy jeans, white sneakers, long black selfie stick with action camera; same avenue, same grey winter light; small in the middle of the frame; camera at the side of the avenue.
 
-No subtitles, no on-screen text, no logos, no watermark.
+No subtitles, no on-screen text, no logos, no watermark. Shop signs blurred and unreadable.
 ```
-Kurguda: Türkçe dış ses — *"Bugün Maraş'a kar yağıyor... ama ben başka bir kışı görmek istiyorum."*
-Risk: düşük. Beyaz kare 1-02'nin başına bağlanır.
-
+**B planı (yaz → kar, daha büyülü):** Fotoğraftaki gibi yeşil yaz günü bırak; Shot 1'de güneşli yaz caddesinde birden kar yağmaya başlasın, karakter şaşırsın. Bunun için `Change the season to winter: …` cümlesini şununla değiştir:
+`The same avenue on a bright summer afternoon with green trees, exactly like @Image2 — and suddenly, impossibly, snowflakes begin to fall from the clear sky.` ve kilit satırlarında `in winter, grey afternoon light, bare trees` → `on a summer afternoon, green trees`.
+Kurguda: Türkçe dış ses — *"Bugün Maraş'a kar yağıyor... ama ben başka bir kışı görmek istiyorum."* (B planında: *"Ağustosta kar mı? Bir şeyler oluyor..."*)
+Risk: orta — fotoğrafta çok sayıda yüz ve tabela var; reddedilirse fotoğrafın sağ alt köşesini (yakındaki insanlar) kırpıp tekrar dene.
 ---
 
 ### Klip 1-02 · Beyazdan 1996'ya
