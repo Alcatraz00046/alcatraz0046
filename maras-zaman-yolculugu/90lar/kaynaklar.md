@@ -71,3 +71,17 @@
 | 09-ulu-cami-minare-kale-x.jpg | https://www.wowturkey.com/konu/kahramanmaras-eski-fotograflar.362/page-2 | x (60–70'ler) | Ulu Cami minaresi, arkada Kale | Taş Medrese kubbesi | K09 |
 
 **Referansı bulunamayan:** K04 (dondurmacı/pastane), K07 (damda biber; yalnız dam dokusu), K08 (90'lar fuarı; yalnız 2026 güreş), K10 (akşam karesi yok; K02 kareleri + ışık prompt'u). Trabzon Caddesi'nin kesin 1985–2000 tarihli karesi bulunamadı. Öneri: Barış Manço "Dere Tepe Türkiye" (1991) ekran görüntüleri, Facebook "Eski Maraş" grupları.
+
+### Tur 2 eklemeleri (eksik mekânlar)
+| Dosya | Kaynak URL | Yıl | Yer | Görülen | Klip |
+|---|---|---|---|---|---|
+| 04-dondurmaci-kazan-2019.jpg | https://www.trthaber.com/haber/yasam/yaz-donemi-dondurma-sehrine-yogun-ilgi-420496.html | 2019 | Kahramanmaraş, sokağa açık dondurmacı | Usta kürekle kazandan dondurma çekiyor, külahlar, vitrin | K04 |
+| 04-dondurma-kazan-dovme-2020.jpg | https://www.trthaber.com/haber/guncel/kahramanmarasta-karda-dondurma-keyfi-451856.html | 2020 | Kahramanmaraş, açık hava | Beyaz önlüklü ustalar bakır kazanda dondurma dövüyor | K04 |
+| 07-biber-cuval-pazar-1990.jpg | https://commons.wikimedia.org/wiki/File:OTKahramanMaras3.jpg | 1990 | Kahramanmaraş çarşısı | Çuvallarda pul biber, baharat, dönem dükkânı | K07 |
+| 07-biber-sergi-kurutma-2025.jpg | https://www.posta.com.tr/galeri/kahramanmarasta-hasadi-basladi-kentin-verimli-topraklarinda-yetisiyor-aciligi-ve-rengiyle-one-cikiyor-2906800 | 2025 | Kahramanmaraş, kurutma sergisi | Yere serili kırmızı biber (kaynaklara göre biber damda değil yerde kurutulur) | K07 |
+| 08-fuar-giris-kapisi-2002.jpg | https://kahramanmaras.bel.tr/haber/2025/08/13/agustos-fuarinda-maziye-yolculuk-anilar-yeniden-yeserdi | 2002 | Eski Ağustos Fuarı giriş kapısı | Fuar panosu, kalabalık | K08 |
+| 08-fuar-gece-sahne-x.jpg / 08-fuar-gece-kalabalik-x.jpg | aynı sayfa | 2000'ler başı | Fuar alanı | Sahne, kalabalık | K08 |
+| 10-sehir-merkezi-aksam-2011.jpg | https://commons.wikimedia.org/wiki/File:Kahramanmara%C5%9F.jpg | 2011 | Kahramanmaraş merkezi, alacakaranlık | Işıklı cadde, kavşak (Trabzon Cd. olduğu doğrulanamadı) | K10 (zayıf) |
+| 00-maras-sokak-1990.jpg | https://commons.wikimedia.org/wiki/File:OTKahramanMaras1.jpg | 1990 | Kahramanmaraş çarşı sokağı | Genel 1990 dokusu: dükkânlar, tabelalar, insanlar | Genel |
+
+Hâlâ eksik: Trabzon Caddesi'nin gece fotoğrafı; 80'ler–90'lar dondurmacı ön cephesi.
