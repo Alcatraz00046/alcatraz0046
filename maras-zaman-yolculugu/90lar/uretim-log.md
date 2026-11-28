@@ -51,3 +51,15 @@ Kural: Her adımdan sonra bir satır ekle. Yeni oturum önce bu dosyayı okur ve
 - **Yeniden üretilmesi önerilenler:** K05 (karakter kameraya dönmüyor), K10 (yüz kadraj altında, sondaki beyaz geçiş belirsiz). Hiçbir klibin sesi/dudak uyumu dinlenerek kontrol edilemedi; kurgu öncesi hepsi dinlenmeli.
 - **Kurguda eklenecek yazı:** K02 başında **"KAHRAMANMARAŞ · AĞUSTOS 1996"**.
 - **Notlar:** Repodaki `02-referanslar/gecis-beyaz-kare.png` düz beyaz değil (karlı kare); K02 için saf beyaz 720x1280 kare üretildi (`~/Maras90lar/kareler/K01-son-beyaz.png`). Kaynak fotoğraflar `~/Maras90lar/referans/` içinde, ayrıntılar `kaynaklar.md`'de.
+
+## Tur 2 — kullanıcının yeni kuralları (2026-11-28 05:30)
+- Karakterin boyu ve duruşu mekâna ve çevredeki insanlara oranlı olacak (normal boylu yetişkin, aynı zemin ve perspektif).
+- Hesap başına kredi sınırı 200. Yüksek kredili hesapta (H3, dort…, /u/2 — en yüksek bakiye) en fazla 400 (tur 1'deki 80 dahil → kalan 320). H2 tur 1'de 120 harcadı → kalan 80.
+- Videolar Omni Flash ile kısa çekimler (her klip 2 × ~4 sn) — uzun çekimde nesneler bozuluyor.
+- Her mekân için gerçek fotoğraf referansı (eksik K04, K07, K08, K10 için yeni arama başlatıldı).
+- **Yöntem (tur 2):** Omni 1.2 Flash (listede '2.1' yok; en yeni Omni 1.2 Flash). Her klip = Kareler modunda 4 sn temel çekim (12 kredi) + editörde 'Uzat' ile 4 sn devam (12 kredi), toplam 8 sn ve kesintisiz. Klip başına 24 kredi. Kareler Nano Banana 2.1 ile, prompt'a ölçek/oran cümlesi eklendi (≈1,75 m yetişkin, aynı zemin ve ufuk çizgisi, çevredeki insanlarla aynı boy).
+
+| Zaman | Hesap | Adım | Deneme | Kredi | Sonuç | Flow |
+|---|---|---|---|---|---|---|
+| 05:40 | H3 | T2-K01 kare (x4; ref: sayfa, portre, 01-gunumuz) | 1 | 0 | 1. varyasyon: karakter yayalarla aynı ölçekte | 'Man holding camcorder on street' |
+| 05:44 | H3 | T2-K01 a (Omni 1.2 Flash, Kareler ilk=kare, 4 sn) + b (Uzat 4 sn) | 1 | 24 (H3 tur 2: 24/320) | 8 sn kesintisiz; oran ve yüz tutarlı; sonda beyaz ışık var. Ses dinlenemedi | H3 proje 'Kas 28 - 04:49' |
