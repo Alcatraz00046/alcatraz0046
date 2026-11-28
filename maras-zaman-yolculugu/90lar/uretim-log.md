@@ -29,3 +29,8 @@ Kural: Her adımdan sonra bir satır ekle. Yeni oturum önce bu dosyayı okur ve
 | 2026-11-28 04:53 | H2 | K06-A (Nano Banana 2.1, 9:16, x4 → 2 sonuç; ref: sayfa, portre, 06-kapali-carsi-1967, 06-kapali-carsi-x) | 1 | 0 | 1. varyasyon: tonozlu çarşı, bakırcılar, kol mesafesi selfie | Flow: 'Man holding camcorder in bazaar' |
 | 2026-11-28 04:55 | H2 | K06-B (Veo 3.1 Fast, Kareler: ilk=K06-A, 8 sn, x1) | 1 | 20 (H2 toplam 120/120 → SINIR) | Üretiliyor; kontrol bir sonraki satırda | Flow |
 | 2026-11-28 04:55 | H2 | HESAP H2 SINIRI DOLDU (120 kredi). Son tamamlanan adım: K06-B gönderildi. Sıradaki hesaba geçilecek. | – | – | – | – |
+| 2026-11-28 05:00 | H2 | K06-B kontrol | – | – | Çarşıda selfie, bakırcılar, yüz tutarlı. Kabul. H2 bakiye 930 doğrulandı | Flow: H2 projesi |
+| 2026-11-28 05:01 | – | Hesap taraması (Chrome /u/0–3): u0=H2, u1=50 kredi (ücretsiz), u2=1.048 kredi, u3=50 kredi (ücretsiz). İlk oturumdaki H1 (46mu…) bu Chrome profilinde yok. Kalan 4 klip (≤80 kredi) için u2=H3 seçildi | – | – | – | – |
+| 2026-11-28 05:02 | H3 | Yeni proje 'Kas 28 - 04:49'; sayfa, portre, 07, 08, 09 (x2), 02-2008 yüklendi | – | 0 | – | – |
+| 2026-11-28 05:04 | H3 | K07-A (Nano Banana 2.1, 9:16, x4 → 1 sonuç; ref: sayfa, portre, 07-duz-damlar, 02-2008) | 1 | 0 | Damlarda kırmızı biber, başörtülü kadınlar, Ahır Dağı | Flow H3: 'Man recording video on rooftop' |
+| 2026-11-28 05:06 | H3 | K07-B (Veo 3.1 Fast, Kareler: ilk=K07-A, 8 sn, x1) | 1 | 20 (H3 toplam 20/120) | Üretiliyor | Flow H3 |
