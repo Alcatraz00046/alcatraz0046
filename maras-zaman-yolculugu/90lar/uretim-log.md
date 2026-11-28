@@ -34,3 +34,10 @@ Kural: Her adımdan sonra bir satır ekle. Yeni oturum önce bu dosyayı okur ve
 | 2026-11-28 05:02 | H3 | Yeni proje 'Kas 28 - 04:49'; sayfa, portre, 07, 08, 09 (x2), 02-2008 yüklendi | – | 0 | – | – |
 | 2026-11-28 05:04 | H3 | K07-A (Nano Banana 2.1, 9:16, x4 → 1 sonuç; ref: sayfa, portre, 07-duz-damlar, 02-2008) | 1 | 0 | Damlarda kırmızı biber, başörtülü kadınlar, Ahır Dağı | Flow H3: 'Man recording video on rooftop' |
 | 2026-11-28 05:06 | H3 | K07-B (Veo 3.1 Fast, Kareler: ilk=K07-A, 8 sn, x1) | 1 | 20 (H3 toplam 20/120) | Üretiliyor | Flow H3 |
+| 2026-11-28 05:10 | H3 | K07-B kontrol | – | – | Damlarda biber, karakter kamerayla çekiyor; yüz tutarlı. Kabul. Ses dinlenemedi | Flow H3: 'Young man speaking to camera' |
+| 2026-11-28 05:08 | H3 | K08-A (Nano Banana 2.1, 9:16, x4; ref: sayfa, portre, 08-karakucak-fuar-2026) | 1 | 0 | 2. varyasyon: güreş halkası, dönme dolap, bayraklar, Ahır Dağı | Flow H3: 'Man filming wrestling at fair' |
+| 2026-11-28 05:10 | H3 | K08-B (Veo 3.1 Fast, Kareler: ilk=K08-A, 8 sn, x1) | 1 | 20 (H3 toplam 40/120) | Kalabalık, güreş uzakta, karakter kameraya dönüp konuşuyor. Kabul. Ses dinlenemedi | Flow H3: 'Man speaks at wrestling match' |
+| 2026-11-28 05:12 | H3 | K09-A (Nano Banana 2.1, 9:16, x4; ref: sayfa, portre, 09-kaleden-ulu-cami, 09-ulu-cami-minare-kale) | 1 | 0 | 4. varyasyon: kale duvarı, Ulu Cami minaresi, turuncu Ahır Dağı, karakter yandan | Flow H3: 'Man recording city from wall' |
+| 2026-11-28 05:14 | H3 | K09-B (Veo 3.1 Fast, Kareler: ilk=K09-A, 8 sn, x1) | 1 | 20 (H3 toplam 60/120) | Gün batımında şehir, karakter tutarlı. Kabul. Ses dinlenemedi | Flow H3 |
+| 2026-11-28 05:16 | H3 | K10-A (Nano Banana 2.1, 9:16, x4; ref: sayfa, portre, 02-2008) | 2 | 0 | 1. gönderim sessizce üretilmedi; 2. denemede 4 sonuç. 1. varyasyon: gece caddesi, dolmuş, simitçi. Not: senaryodaki 'güneşli gün' ifadesi gece sahnesine uyarlandı | Flow H3: 'Man recording video on street' |
+| 2026-11-28 05:20 | H3 | K10-B (Veo 3.1 Fast, Kareler: ilk=K10-A, 8 sn, x1; sonda beyaz ışık prompt'ta) | 1 | 20 (H3 toplam 80/120) | Üretiliyor | Flow H3 |
