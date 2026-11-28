@@ -13,6 +13,15 @@
 | WowTurkey — Şehir merkezi fotoğrafları https://www.wowturkey.com/konu/kahramanmaras-sehir-merkezi-fotograflari.3642/ | Deprem öncesi merkez | Mekân düzeni için |
 | Wikimedia Commons — Trabzon Caddesi (2008) https://commons.wikimedia.org/wiki/File:Trabzon_Caddesi.jpg | Cadde düzeni, binalar | 90'lara çevrilerek (prompt modernliği siler) |
 
+## Öncelik 1b — Arşiv ve tarihli kayıtlar (araştırma ajanından; sayfalar burada açılamadı, Chrome'da doğrula)
+| Kaynak | Ne var |
+|---|---|
+| SALT Araştırma — https://archives.saltresearch.org/handle/123456789/72156 | "Maraş Ulu Camii ve Taş Medrese ile arka planda Maraş Kalesi" (dosya kimliği TASUH1992; yıl mı, kimlik mi belirsiz — doğrula). CC BY-NC-ND 4.0, Flickr Commons'ta da var |
+| Open Context — Kahramanmaraş Valley Survey 1993–95 https://opencontext.org/projects/ca4f4719-f2a5-4119-99fa-b04573c8929a | 1993 kırsal ova, köyler, olası Ahır Dağı arka planı (şehir değil) |
+| İl Özel İdare "Sarı Bina" — https://www.milliyet.com.tr/yerel-haberler/kahramanmaras/dunyanin-en-sacma-binasi-kahramanmarasta-12947906 | 1994'te Trabzon Caddesi'nde yapılan 18 katlı sarı bina (2022'de yıkıldı). Fotoğraflar sonraki yıllardan ama 1996 sokak sahnesinde arka plan işareti olarak kullanılabilir |
+| Facebook grupları "Eski Maraş", "Kahramanmaraş Nostalji" | Gerçek 90'lar sokak fotoğrafları büyük ihtimalle burada; Chrome'da kullanıcının oturumuyla açılabilir |
+| DergiPark — Maraş Kalesi'nin değişimi (Paköz & Oltulu 2022) https://dergipark.org.tr/tr/download/article-file/3715345 | Tarihli Kale ve Trabzon Bulvarı fotoğrafları içerebilir |
+
 ## Öncelik 2 — Mekân düzeni (eski ama mekânı gösterir)
 | Kaynak | Ne var |
 |---|---|
@@ -30,6 +39,13 @@
 - Kapalı Çarşı'nın Kıbrıs Meydanı'na bakan anıtsal kapıları bugün yok (1966 fotoğrafında var). (Maraş Avucumda)
 - 1990'larda fotoğrafçılarda "aynı gün teslim" başladı; 1995 sonrası bir saatte teslim. (Habertürk yerel — 81 yıllık fotoğrafhane)
 - Barış Manço 1991'de Maraş'ı "Dere Tepe Türkiye"de anlattı. (Maraş Bugün)
+- Trabzon Caddesi 1966'da açıldı, şehrin en işlek caddesi. (DergiPark 3715345)
+- İl Özel İdare "Sarı Bina": 1994, Trabzon Caddesi, 18 kat, sarı. (Milliyet)
+- Yaşar Pastanesi 1962'de Trabzon Caddesi'nde açıldı (Kanbur ailesi); MADO 1991–92'de doğdu. (İstiklal)
+- Ağustos Fuarı 1980'lerden 2000'lere düzenlendi; 1983–2000 arası fuarda karakucak güreşleri yapıldı. (Ensonhaber, Haberkenti, Gazete Birlik)
+- Kahramanmaraş Sütçü İmam Üniversitesi 1992'de kuruldu. 12 Şubat Stadı 1970'te açıldı, 1996'da yenilendi. (Kupi, Wikipedia)
+- Kale'nin altındaki Rıdvan Hoca Yeraltı Çarşısı'nda 1990'dan beri çalışan esnaf var. (Bengütürk)
+- Sır Barajı 1991'de Avşar köyünü su altında bıraktı. (Posta)
 
 ## Google Görseller arama listesi (eksik yer kalırsa)
 `"eski Maraş" fotoğraf 1990` · `Kahramanmaraş 1993 Trabzon Caddesi` · `Kıbrıs Meydanı Kahramanmaraş eski` · `Maraş Kalesi eski fotoğraf` · `Uzunoluk eski Maraş` · `Kahramanmaraş ilkokul 1990 sınıf fotoğrafı` · `Maraş dondurmacı eski fotoğraf` · `Kahramanmaraş otogar eski dolmuş`
