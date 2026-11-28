@@ -65,3 +65,5 @@ Kural: Her adımdan sonra bir satır ekle. Yeni oturum önce bu dosyayı okur ve
 | 05:44 | H3 | T2-K01 a (Omni 1.2 Flash, Kareler ilk=kare, 4 sn) + b (Uzat 4 sn) | 1 | 24 (H3 tur 2: 24/320) | 8 sn kesintisiz; oran ve yüz tutarlı; sonda beyaz ışık var. Ses dinlenemedi | H3 proje 'Kas 28 - 04:49' |
 | 05:50 | H3 | T2-K02 kare (x4 → 1; ref: sayfa, portre, 02-kibris-x, 02-2008) | 1 | 0 | Karakter yayalarla aynı boyda, 1996 caddesi | 'Man filming on 1996 street' |
 | 05:56 | H3 | T2-K02 a (Kareler ilk=beyaz, son=kare, 4 sn) + b (Uzat 4 sn, replik) | 1 | 24 (48/320) | Beyazdan açılış, sonra yakınlaşarak konuşma; oran ve yüz tutarlı. Ses dinlenemedi | 'Young man looking around street' |
+| 06:02 | H3 | T2-K03 kare (x4; ref: sayfa, portre, T2-K02 kare, 03-sebze-hali, 00-maras-sokak-1990) | 1 | 0 | 4. varyasyon: gazete standı, dükkânlar, dolmuş; yayalarla aynı ölçek | 'Man filming street with camcorder' |
+| 06:07 | H3 | T2-K03 a (4 sn) + b (Uzat 4 sn) | 1 | 24 (72/320) | Yürüyüş doğal, oran tutarlı. Ses dinlenemedi | 'Man walking on crowded pavement' |
