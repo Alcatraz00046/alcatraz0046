@@ -6,7 +6,7 @@ Kural: Her adımdan sonra bir satır ekle. Yeni oturum önce bu dosyayı okur ve
 | Sıra | Hesap (kısaltma) | Başlangıç kredisi | Bitiş | Not |
 |---|---|---|---|---|
 | 1 | H1 (46mu…) | 50 (günlük yenilenen, 14:02) | | Görsel üretim (Nano Banana 2.1) 0 kredi |
-| 2 | H2 (musa…) | 1.050 (16 Ara'da sıfırlanır) | | Chrome yeniden bağlanınca bu hesap açıldı; yeni proje açıldı, referanslar yüklendi, üretim yapılmadı |
+| 2 | H2 (musa…) | 1.050 (16 Ara'da sıfırlanır) | 930 (120 harcandı, kullanıcı sınırı) | Chrome yeniden bağlanınca bu hesap açıldı; yeni proje açıldı, referanslar yüklendi, üretim yapılmadı |
 
 ## Adımlar
 | Zaman | Hesap | Adım (foto / karakter / K01-A / K01-B …) | Deneme | Kredi | Sonuç | Dosya |
@@ -25,3 +25,7 @@ Kural: Her adımdan sonra bir satır ekle. Yeni oturum önce bu dosyayı okur ve
 | 2026-11-28 04:41 | H2 | K04-A (Nano Banana 2.1, 9:16, x4; ref: sayfa, portre, K02-A — dondurmacı fotoğrafı yok) | 1 | 0 | 2. varyasyon: usta dondurmayı çekiyor, karakter sağda; 1. varyasyonda okunur 'MARAŞ DONDURMASI' tabelası vardı | Flow: 'Man watching ice cream making' |
 | 2026-11-28 04:44 | H2 | K04-B (Veo 3.1 Fast, Kareler: ilk=K04-A, 8 sn, x1) | 1 | 20 (H2 toplam 80/120) | Usta dondurmayı çekiyor, tabak uzatılıyor, karakter tezgâhta yiyor; yüz tutarlı. Ses dinlenemedi | Flow: 'tasting Maraş ice cream' (video) |
 | 2026-11-28 04:47 | H2 | K05-A (Nano Banana 2.1, 9:16, x4; ref: sayfa, portre, 02-kibris-meydani-x, 05-kibris-meydani-1966) | 1 | 0 | 4. varyasyon: anıt ortada, bayraklar, güvercinler, karakter küçük | Flow: 'Man filming monument in square' |
+| 2026-11-28 04:50 | H2 | K05-B (Veo 3.1 Fast, Kareler: ilk=K05-A, 8 sn, x1) | 1 | 20 (H2 toplam 100/120) | Anıt, bayraklar, güvercinler tamam; ama karakter kameraya dönmüyor, anıtı çekmeye devam ediyor → yeniden üretim önerilir. Ses dinlenemedi | Flow: 'Young man speaking near monument' (video) |
+| 2026-11-28 04:53 | H2 | K06-A (Nano Banana 2.1, 9:16, x4 → 2 sonuç; ref: sayfa, portre, 06-kapali-carsi-1967, 06-kapali-carsi-x) | 1 | 0 | 1. varyasyon: tonozlu çarşı, bakırcılar, kol mesafesi selfie | Flow: 'Man holding camcorder in bazaar' |
+| 2026-11-28 04:55 | H2 | K06-B (Veo 3.1 Fast, Kareler: ilk=K06-A, 8 sn, x1) | 1 | 20 (H2 toplam 120/120 → SINIR) | Üretiliyor; kontrol bir sonraki satırda | Flow |
+| 2026-11-28 04:55 | H2 | HESAP H2 SINIRI DOLDU (120 kredi). Son tamamlanan adım: K06-B gönderildi. Sıradaki hesaba geçilecek. | – | – | – | – |
