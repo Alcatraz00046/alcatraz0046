@@ -2,7 +2,7 @@
 
 Seyahat vlogu tarzında, Yolcu'nun bugünkü karlı Maraş'tan **2005'te karlı bir akşam, Trabzon Caddesi**'ne gidip gezdiği video serisi.
 
-**Aktif bölüm:** `04-sahne-listesi/bolum-01-2005-trabzon-caddesi.md` (eski Seedance/1996 planı `04-sahne-listesi/arsiv/`).
+**Aktif proje:** `90lar/` — 90'lar Kahramanmaraş, gerçek fotoğraf referanslı vlog; Google Flow'da **yerel oturum** (Claude in Chrome) skill `/maras-90lar-flow` ile üretir. Eski planlar `04-sahne-listesi/arsiv/`.
 
 ## Klasörler
 | Klasör | İçerik |
