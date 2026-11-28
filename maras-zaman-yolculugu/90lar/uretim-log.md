@@ -41,3 +41,13 @@ Kural: Her adımdan sonra bir satır ekle. Yeni oturum önce bu dosyayı okur ve
 | 2026-11-28 05:14 | H3 | K09-B (Veo 3.1 Fast, Kareler: ilk=K09-A, 8 sn, x1) | 1 | 20 (H3 toplam 60/120) | Gün batımında şehir, karakter tutarlı. Kabul. Ses dinlenemedi | Flow H3 |
 | 2026-11-28 05:16 | H3 | K10-A (Nano Banana 2.1, 9:16, x4; ref: sayfa, portre, 02-2008) | 2 | 0 | 1. gönderim sessizce üretilmedi; 2. denemede 4 sonuç. 1. varyasyon: gece caddesi, dolmuş, simitçi. Not: senaryodaki 'güneşli gün' ifadesi gece sahnesine uyarlandı | Flow H3: 'Man recording video on street' |
 | 2026-11-28 05:20 | H3 | K10-B (Veo 3.1 Fast, Kareler: ilk=K10-A, 8 sn, x1; sonda beyaz ışık prompt'ta) | 1 | 20 (H3 toplam 80/120) | Üretiliyor | Flow H3 |
+| 2026-11-28 05:23 | H3 | K10-B kontrol | – | – | Gece caddesi, selfie; ancak yüz kadrajın altında kesik kalıyor ve sondaki beyaz ışık küçük resimlerde görünmüyor → yeniden üretim önerilir. Ses dinlenemedi | Flow H3 |
+
+## Bitiş özeti (2026-11-28)
+- **Toplam:** 10/10 klip üretildi (Veo 3.1 Fast, 8 sn, 9:16, 720p, her klip 1 varyasyon). Kareler Nano Banana 2.1 ile 0 kredi.
+- **Model kararı:** Kullanıcı sınırı hesap başına 120 kredi. Veo 3.1 Quality klip başına 100 kredi (hesap başına 1 klip) olduğu için Veo 3.1 Fast (20 kredi) seçildi.
+- **Hesaplar ve krediler:** H1 (46mu…): 0 kredi (yalnız karakter sayfası + portre). H2 (musa…, /u/0): 120 kredi, K01–K06, proje 'Kas 28 - 04:13'. H3 (dort…, /u/2): 80 kredi, K07–K10, proje 'Kas 28 - 04:49'. Toplam 200 kredi.
+- **Klipler nerede:** Flow projelerinde (H2: K01–K06, H3: K07–K10). `~/Maras90lar/klipler/` boş: Bu Chrome oturumunda indirmeler diske düşmüyor (Flow'un indir menüsü ve sayfa içi indirme ikisi de sonuçsuz; Chrome muhtemelen site indirme izni bekliyor). Kullanıcı Chrome'da flow.google.com için indirme iznini verince her klip 720p olarak indirilmeli → `klipler/K01.mp4` … `K10.mp4`.
+- **Yeniden üretilmesi önerilenler:** K05 (karakter kameraya dönmüyor), K10 (yüz kadraj altında, sondaki beyaz geçiş belirsiz). Hiçbir klibin sesi/dudak uyumu dinlenerek kontrol edilemedi; kurgu öncesi hepsi dinlenmeli.
+- **Kurguda eklenecek yazı:** K02 başında **"KAHRAMANMARAŞ · AĞUSTOS 1996"**.
+- **Notlar:** Repodaki `02-referanslar/gecis-beyaz-kare.png` düz beyaz değil (karlı kare); K02 için saf beyaz 720x1280 kare üretildi (`~/Maras90lar/kareler/K01-son-beyaz.png`). Kaynak fotoğraflar `~/Maras90lar/referans/` içinde, ayrıntılar `kaynaklar.md`'de.
