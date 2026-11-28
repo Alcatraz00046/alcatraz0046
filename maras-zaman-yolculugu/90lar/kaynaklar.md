@@ -57,3 +57,17 @@
 ## İndirilen referanslar (yerel oturum doldurur)
 | Dosya | Kaynak URL | Yıl | Yer | Görülen (kıyafet, araç, tabela) | Klip |
 |---|---|---|---|---|---|
+| 02-trabzon-caddesi-kibris-meydani-x.jpg | https://www.wowturkey.com/konu/kahramanmaras-eski-fotograflar.362/page-4 | x (renkli kartpostal, muhtemelen 80'ler) | Kıbrıs Meydanı → Trabzon Cd. | Kurtuluş Anıtı, kırmızı-beyaz belediye otobüsü, bayraklar, 6–10 katlı bloklar, ağaçlı refüj; "kahramankent.com" filigranı | K02, K05, K10 |
+| 02-trabzon-caddesi-2008.jpg | https://commons.wikimedia.org/wiki/File:Trabzon_Caddesi.jpg | 2008 | Trabzon Cd. / Kıbrıs Meydanı kavşağı | Cadde düzeni, havuzlu göbek, Ahır Dağı; modern unsurlar prompt'la silinir | K02, K10 |
+| 03-trabzon-caddesi-dolmus-1970.jpg | https://www.wowturkey.com/konu/kahramanmaras-eski-fotograflar.362/ | 1970 | Kıbrıs Meydanı göbeği, Trabzon Cd. | Otobüs, kamyonet, at arabası, "AKBANK" tabelası | K03, K05 |
+| 03-yeni-sebze-hali-araclar-x.jpg | https://www.marasmanset.com/kahramanmarasin-bu-fotograflarini-daha-once-gormus-muydunuz | x (muhtemelen 90'lar) | Yeni Sebze Hali | Tofaş Şahin/Doğan, Ford kamyonlar | K03 (araç dokusu) |
+| 05-kibris-meydani-1966.jpg | https://marasavucumda.com/eski-yeni-haliyle-kahramanmaras-fotograflari/ | 1966 | Kıbrıs Meydanı, arkada Kale | Anıt öncesi göbek, Arnavut kaldırımı | K05 |
+| 05-kibris-meydani-x.jpg | aynı sayfa | x (s/b, muhtemelen 50'ler) | Kıbrıs Meydanı çevresi | Minareler, saçaklı dükkânlar, Ahır Dağı | K05 |
+| 06-kapali-carsi-1967.jpg | https://marasavucumda.com/maras-kapali-carsisi/ | 1967 | Kapalı Çarşı içi | Tonozlu çatı, ışık delikleri, esnaf | K06 |
+| 06-kapali-carsi-x.jpg | https://www.marasmanset.com/kahramanmarasin-bu-fotograflarini-daha-once-gormus-muydunuz | x (20–30'lar) | Kapalı Çarşı | Kemerli taş dükkânlar | K06 |
+| 07-duz-damlar-sehir-x.jpg | https://www.wowturkey.com/konu/kahramanmaras-eski-fotograflar.362/ | x (1900'ler başı) | Eski Maraş düz damlar | Biber yok, sadece dam dokusu | K07 (zayıf) |
+| 08-karakucak-fuar-2026.jpg | https://www.gazetebirlik.com/spor/geleneksel-fuar-guresleri-26-yil-sonra-kahramanmarasta-yapildi/1074101 | 2026 | Fuar güreşleri | Sadece karakucak stili | K08 (zayıf) |
+| 09-kaleden-ulu-cami-x.jpg | https://www.wowturkey.com/konu/kahramanmaras-eski-fotograflar.362/page-4 | x (60–70'ler) | Kaleden Ulu Cami ve şehir | Kiremit çatılar, minare, ova | K09 |
+| 09-ulu-cami-minare-kale-x.jpg | https://www.wowturkey.com/konu/kahramanmaras-eski-fotograflar.362/page-2 | x (60–70'ler) | Ulu Cami minaresi, arkada Kale | Taş Medrese kubbesi | K09 |
+
+**Referansı bulunamayan:** K04 (dondurmacı/pastane), K07 (damda biber; yalnız dam dokusu), K08 (90'lar fuarı; yalnız 2026 güreş), K10 (akşam karesi yok; K02 kareleri + ışık prompt'u). Trabzon Caddesi'nin kesin 1985–2000 tarihli karesi bulunamadı. Öneri: Barış Manço "Dere Tepe Türkiye" (1991) ekran görüntüleri, Facebook "Eski Maraş" grupları.
