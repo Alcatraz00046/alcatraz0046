@@ -47,8 +47,12 @@
 - Kale'nin altındaki Rıdvan Hoca Yeraltı Çarşısı'nda 1990'dan beri çalışan esnaf var. (Bengütürk)
 - Sır Barajı 1991'de Avşar köyünü su altında bıraktı. (Posta)
 
+## Maraş ağzı
+- Maraş Avucumda sözlüğü: https://marasavucumda.com/maras-sozlugu-kelimeleri-sivesi-deyisleri/
+- Gültekin 2005: https://dergipark.org.tr/tr/download/article-file/156838 · Maraş söz varlığı: https://www.marastaedebiyat.com/maras-soz-varligi
+
 ## Google Görseller arama listesi (eksik yer kalırsa)
-`"eski Maraş" fotoğraf 1990` · `Kahramanmaraş 1993 Trabzon Caddesi` · `Kıbrıs Meydanı Kahramanmaraş eski` · `Maraş Kalesi eski fotoğraf` · `Uzunoluk eski Maraş` · `Kahramanmaraş ilkokul 1990 sınıf fotoğrafı` · `Maraş dondurmacı eski fotoğraf` · `Kahramanmaraş otogar eski dolmuş`
+`"eski Maraş" fotoğraf 1990` · `Kahramanmaraş 1993 Trabzon Caddesi` · `Kıbrıs Meydanı Kahramanmaraş eski` · `Maraş Kalesi eski fotoğraf` · `Uzunoluk eski Maraş` · `Kahramanmaraş ilkokul 1990 sınıf fotoğrafı` · `Maraş dondurmacı eski fotoğraf` · `Kahramanmaraş otogar eski dolmuş` · `Kahramanmaraş Ağustos Fuarı eski` · `Maraş biber kurutma eski fotoğraf` · `Barış Manço Dere Tepe Türkiye Kahramanmaraş`
 
 ## İndirilen referanslar (yerel oturum doldurur)
 | Dosya | Kaynak URL | Yıl | Yer | Görülen (kıyafet, araç, tabela) | Klip |
